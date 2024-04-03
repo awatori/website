@@ -51,9 +51,9 @@ export default function Home() {
           With the overarching mission to contribute socioeconomic development in Africa and Japan, Bukky and Seiko, both of African descent, believe in the power of such a synergy. Through partnerships with stakeholders from the supply chain and collaborations with third part organizations, Awa’Tori aims to develop and facilitate projects that foster sustainable partnerships that bridges the gap between the Creative Industries of Africa and Japan.
         </p>
         <h1 className="mt-12">Our Team</h1>
-        <div className="flex mt-8">
+        <div className="flex mt-8 justify-between">
           {profiles.map((profile) => (
-            <ProfileCard profile={profile} />
+            <ProfileCard key={profile.name} profile={profile} />
           ))}
         </div>
       </section>
