@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Providers } from './providers';
 import { Header } from "@/components/header";
 import "./globals.css";
 import "./globals.icons.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { karla, arsenal } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "Awa'Tori"
@@ -18,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${arsenal.variable} ${karla.className}`}>
         <Providers>
           {children}
           <Header />

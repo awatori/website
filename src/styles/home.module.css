@@ -9,7 +9,7 @@
     position: fixed;
     width: 100px;
     z-index: 100;
-    transform: translate(0, -47vh);
+    transform: translate(0, -46vh);
   }
 }
 
