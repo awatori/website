@@ -1,0 +1,27 @@
+@keyframes logo {
+  from {
+    width: 384px;
+    transform: translate(0, 0);
+    height: fit-content;
+  }
+
+  to {
+    position: fixed;
+    width: 100px;
+    z-index: 100;
+    transform: translate(0, -47vh);
+  }
+}
+
+.hero-to-header {
+  animation-name: logo;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.header-to-hero {
+  animation-name: logo;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+}
