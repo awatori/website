@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Providers } from './providers';
 import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 import "./globals.css";
 import "./globals.icons.css";
 import { karla, arsenal } from "@/lib/fonts";
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Providers>
           {children}
           <Header />
+          <Footer />
         </Providers>
       </body>
     </html>

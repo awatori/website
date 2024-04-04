@@ -9,19 +9,22 @@ export default function Home() {
 
   useEffect(() => {
     const header = document.querySelector("#header");
+    const headerLogo = document.querySelector("#header-logo");
+    headerLogo!.classList.add("opacity-0");
     header!.classList.remove("bg-black");
     header!.classList.add("bg-transparent");
 
-    window.addEventListener("scroll", checkScroll);
+    window.addEventListener("scroll", checkScroll); // For animated logo
 
-    return () => window.removeEventListener("scroll", checkScroll);
+    return () => window.removeEventListener("scroll", checkScroll); // Cleanup
   }, [])
 
   function checkScroll() {
     const header = document.querySelector("#header");
-    const logo = document.querySelector("#header-logo") as HTMLElement;
+    const logo = document.querySelector("#hero-logo") as HTMLElement;
 
-    if (window.scrollY > 5) {
+    // Logo animation
+    if (window.scrollY > 0) {
       header!.classList.remove("bg-transparent");
       header!.classList.add("bg-black");
       logo!.classList.remove(styles["header-to-hero"]);
@@ -39,7 +42,7 @@ export default function Home() {
   return (
     <main className="relative">
       <div className="absolute h-lvh w-lvw flex justify-center items-center">
-        <img src="/awatori_logo_white.png" alt="awatori logo in white" className="w-96 h-fit" id="header-logo" />
+        <img src="/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-80 h-fit" id="hero-logo" />
       </div>
       <section className="h-lvh w-lvh">
         <img src="/placeholder_hero.png" alt="two models on a runway" className="h-full w-full object-cover" />
