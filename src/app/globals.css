@@ -13,6 +13,10 @@ h2 {
   font-size: 1.5em;
 }
 
+b, strong {
+  font-weight: 800;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

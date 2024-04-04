@@ -1,4 +1,10 @@
-export const profiles = [
+interface Profile {
+  name: string;
+  description: string;
+  pfp: string;
+}
+
+export const profiles: Profile[] = [
   {
     name: "Bukky Adejobi",
     description: "Nigeria born, based in Tokyo. BA Honors from Trent University in Canada, and MBA Degree from Doshisha University, in Japan. Worked with Tokyo Fashion Week for 2 years, providing support to international designers looking to enter the Japan market. Co- Founder & CEO of Awa'Tori.",
