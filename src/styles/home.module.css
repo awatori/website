@@ -8,7 +8,7 @@
   to {
     position: fixed;
     width: 64px;
-    z-index: 100;
+    z-index: 1000;
     transform: translate(0, -45vh);
   }
 }

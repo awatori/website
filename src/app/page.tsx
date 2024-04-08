@@ -16,7 +16,12 @@ export default function Home() {
 
     window.addEventListener("scroll", checkScroll); // For animated logo
 
-    return () => window.removeEventListener("scroll", checkScroll); // Cleanup
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+      headerLogo!.classList.remove("opacity-0");
+      header!.classList.add("bg-black");
+      header!.classList.remove("bg-transparent");
+    } // Cleanup
   }, [])
 
   function checkScroll() {
