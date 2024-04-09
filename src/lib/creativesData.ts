@@ -57,3 +57,27 @@ export const faceAJSS2020Creatives: Creative[] = [
     url: "/creatives/thebe-magugu"
   }
 ]
+
+export const faceAJSS2021Creatives: Creative[] = [
+  {
+    name: ".m.jk",
+    country: "",
+    image: "/creatives/mjk.jpg",
+    alt: ".m.jk profile picture",
+    url: ""
+  },
+  {
+    name: "FahdUniverse",
+    country: "Artist",
+    image: "/creatives/FahdUniverse.jpg",
+    alt: "FahdUniverse profile picture",
+    url: "https://www.instagram.com/fahdsuniverse/?utm_source=ig_profile_share&igshid=1foora8rivswa"
+  },
+  {
+    name: "WAFFLESNCREAM",
+    country: "Nigeria",
+    image: "/creatives/Wafflesncream.jpg",
+    alt: "WAFFLESNCREAM profile picture",
+    url: "/creatives/wafflesncream"
+  }
+]
