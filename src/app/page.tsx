@@ -47,19 +47,19 @@ export default function Home() {
   return (
     <main className="relative">
       <div className="absolute h-lvh w-lvw flex justify-center items-center">
-        <img src="/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-80 h-fit" id="hero-logo" />
+        <img src="/logos/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-80 h-fit" id="hero-logo" />
       </div>
       <section className="h-lvh w-lvh">
         <img src="/placeholder_hero.png" alt="two models on a runway" className="h-full w-full object-cover" />
       </section>
-      <section className="mx-24 my-16">
+      <section className="mx-36 my-12">
         <h1>About Us</h1>
         <p className="mt-4">Awa’Tori meaning “Our Story” in Pidgin English (widely spoken language across anglophone African countries), and in Japanese, loosely translated as Awa – 合わせ meaning bringing several cultures together and Tori – 通り as in bridging the African and Japanese creative markets. <br /><br />
           Founded in 2018 by Bukky Adejobi and Seiko Mbako, Awa’Tori is a platform that is passionate about the African and Japanese creative industry. We believe the creatives in the African and Asian markets have stories worth telling that are expressed in the form of fashion, arts, music, or film. Cut off from certain parts of the world, we believe it is our responsibility to help them tell their stories beyond their respective borders. <br /><br />
           With the overarching mission to contribute socioeconomic development in Africa and Japan, Bukky and Seiko, both of African descent, believe in the power of such a synergy. Through partnerships with stakeholders from the supply chain and collaborations with third part organizations, Awa’Tori aims to develop and facilitate projects that foster sustainable partnerships that bridges the gap between the Creative Industries of Africa and Japan.
         </p>
         <h1 className="mt-12">Our Team</h1>
-        <div className="flex flex-col mt-8 gap-6">
+        <div className="flex flex-col mt-8 gap-6 mb-24">
           {profiles.map((profile) => (
             <ProfileCard key={profile.name} profile={profile} />
           ))}

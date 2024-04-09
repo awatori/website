@@ -2,7 +2,7 @@ import Link from "next/link";
 export function Footer() {
   return (
     <footer className="flex justify-between items-center px-8 py-5 text-white w-full bg-black px-14">
-      <img src="/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-16" />
+      <img src="/logos/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-16" />
       <nav className="flex justify-between gap-x-6 text-sm">
         <Link href="/" className="hover:underline">Home</Link>
         <Link href="/projects" className="hover:underline">Projects</Link>
