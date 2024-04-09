@@ -15,7 +15,7 @@ export function Header() {
         id="header">
         <Link href="/" className="w-1/4">Language</Link>
         <div className="w-1/4 flex justify-center">
-          <Link href="/"><img src="/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-16 my-1" id="header-logo" /></Link>
+          <Link href="/"><img src="/logos/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-16 my-1" id="header-logo" /></Link>
         </div>
         <div className="flex w-1/4 justify-end">
           <button onClick={onOpen}><span className="material-symbols-outlined">menu</span></button>
