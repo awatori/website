@@ -10,8 +10,8 @@ export function Footer() {
         <Link href="/contact-us" className="hover:underline">Contact Us</Link>
       </nav>
       <nav className="flex gap-3">
-        <a href="https://www.youtube.com/channel/UCHCt0lehc9PLV7JS3Ytlkag/featured?view_as=subscriber" target="_blank"><img src="/youtube_icon.png" alt="YouTube icon" className="w-8" /></a>
-        <a href="https://www.instagram.com/awatori.ourstory/" target="_blank"><img src="/instagram_icon.png" alt="YouTube icon" className="w-8" /></a>
+        <a href="https://www.youtube.com/channel/UCHCt0lehc9PLV7JS3Ytlkag/featured?view_as=subscriber" target="_blank"><img src="/icons/youtube_icon.png" alt="YouTube icon" className="w-8" /></a>
+        <a href="https://www.instagram.com/awatori.ourstory/" target="_blank"><img src="/icons/instagram_icon.png" alt="YouTube icon" className="w-8" /></a>
       </nav>
     </footer>
   );

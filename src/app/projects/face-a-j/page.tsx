@@ -12,13 +12,13 @@ export default function FaceAJ() {
         <div className="flex flex-col md:flex-row justify-between w-full my-14">
           <div className="flex flex-col w-full md:w-[49%]">
             <Link href="/projects/face-a-j/ss-2020">
-              <img src="/placeholder_hero.png" alt="placeholder image" className="w-full h-[60vh] object-cover" />
+              <img src="/faceajss2020/tokyo/COYOTE/9BC577D6-89CD-4C9A-B0CA-46AA3D62A27C.JPG" alt="placeholder image" className="w-full h-[60vh] object-cover" />
               <h2 className="mt-2 hover:underline">SS 2020 →</h2>
             </Link>
           </div>
           <div className="flex flex-col w-full md:w-[49%]">
             <Link href="/projects/face-a-j/ss-2021">
-              <img src="/placeholder_hero.png" alt="placeholder image" className="w-full h-[60vh] object-cover" />
+              <img src="/faceajss2021/Screenshot 2024-04-10 at 16.55.12.png" alt="placeholder image" className="w-full h-[60vh] object-cover" />
               <h2 className="mt-2 hover:underline">SS 2021 →</h2>
             </Link>
           </div>
