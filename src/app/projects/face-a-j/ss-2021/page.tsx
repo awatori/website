@@ -1,7 +1,7 @@
 import { ImageSlider } from "@/components/imageSlider"
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2021Creatives } from "@/lib/creativesData"
-import { faceAJSS2020Tokyo } from "@/lib/imagesData"
+import { faceAJSS2021 } from "@/lib/imagesData"
 
 export default function SS2021() {
   return (
@@ -21,7 +21,7 @@ export default function SS2021() {
           In the spirit of a relaxed atmosphere, there will be Pizza and drinks. Guests are also welcome to visit one of the pop-ups next door, at United Arrows H Beauty & Youth where we will display some art pieces by the brand.</p>
       </section>
       <section className="mt-12">
-        <ImageSlider images={faceAJSS2020Tokyo} />
+        <ImageSlider images={faceAJSS2021} />
       </section>
       <section className="mt-12">
         <h1 className="text-center md:text-left">The designers</h1>

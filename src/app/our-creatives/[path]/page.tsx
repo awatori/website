@@ -1,6 +1,6 @@
-import { creativesWithPages } from "@/lib/creativesData"
-import { getCreativeByPath } from "@/lib/creativesData"
-import { button } from "@material-tailwind/react";
+import { creativesWithPages } from "@/lib/creativesData";
+import { getCreativeByPath } from "@/lib/creativesData";
+import { ImageSlider } from "@/components/imageSlider";
 
 export async function generateStaticParams() {
   return creativesWithPages.map((creative) => ({
@@ -18,7 +18,7 @@ export default function Creative({ params }: {
 
   return (
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16 min-h-lvh">
-      <section className="flex flex-col md:flex-row w-full">
+      <section className="flex flex-col md:flex-row w-full mb-10">
         {(thisProfile!.pfp) ?
           <div className="w-full overflow-hidden md:w-1/3 max-h-[70vh] md:max-h-[60vh] lg:max-h-[45vh]">
             <img src={thisProfile!.pfp} className="w-full h-full object-cover object-top overflow-hidden" />
@@ -32,8 +32,8 @@ export default function Creative({ params }: {
             {(thisProfile!.website) ? <button><img src="/icons/website_icon.png" alt="Website icon" width="40px" /></button> : null}
           </div>
         </div>
-
       </section>
+      <ImageSlider images={thisProfile!.images} />
     </main>
   )
 }
