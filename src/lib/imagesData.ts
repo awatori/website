@@ -3,7 +3,6 @@ interface Image {
   alt: string;
 }
 
-// PLACEHOLDERS
 export const faceAJSS2020Tokyo: Image[] = [
   { url: "/faceajss2020/tokyo/_DSC7011.jpg", alt: "Dancing woman's skirt" },
   { url: "/faceajss2020/tokyo/_DSC7167.jpg", alt: "Staff at a runway show" },

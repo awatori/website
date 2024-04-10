@@ -21,7 +21,7 @@ export default function SS2021() {
           In the spirit of a relaxed atmosphere, there will be Pizza and drinks. Guests are also welcome to visit one of the pop-ups next door, at United Arrows H Beauty & Youth where we will display some art pieces by the brand.</p>
       </section>
       <section className="mt-12">
-
+        <ImageSlider images={faceAJSS2020Tokyo} />
       </section>
       <section className="mt-12">
         <h1 className="text-center md:text-left">The designers</h1>
