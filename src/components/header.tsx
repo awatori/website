@@ -74,9 +74,9 @@ export function Header() {
               </AccordionItem>
               <AccordionItem>
                 <h2>
-                  <Link href="/news">
+                  <Link href="/whats-new">
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">News</span>
+                      <span className="text-lg">What's New</span>
                     </AccordionButton>
                   </Link>
                 </h2>
