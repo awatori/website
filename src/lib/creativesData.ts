@@ -215,6 +215,7 @@ export const creativesWithPages: CreativesPage[] = [
   }
 ];
 
+// Used /src/app/our-creatives/[path]/page.tsx
 export function getCreativeByPath(path: string) {
   for (const index in creativesWithPages) {
     if (creativesWithPages[index].path === path) return creativesWithPages[index];
