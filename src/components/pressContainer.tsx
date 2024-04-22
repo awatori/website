@@ -2,7 +2,6 @@
 import { Press } from "@/lib/pressData";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import "../styles/pressContainer.module.css";
 
 type Props = {
   pressArr: Press[];
