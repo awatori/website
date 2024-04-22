@@ -57,7 +57,7 @@ export function PressContainer({ pressArr }: Props) {
     <article className={`flex 0 w-full ${isTouchScreen ? "overflow-scroll" : "overflow-hidden"} gap-x-[2%] mt-4 relative`}>
       {pressArr.map((press) => (
         <div className={`${maxCount === 1 ? "w-[80%]" : "w-1/5"} h-40 relative shrink-0 transition-all ease-in-out duration-300`} key={press.title} style={{ translate: `${(maxCount === 1 ? -103 : -440) * imgIndex}%` }}>
-          <Link href={press.link}>
+          <Link href={press.link} target="_blank">
             <img src={press.thumbnail} alt="" className="h-full w-full object-cover" />
             <div className={`flex absolute top-0 right-0 h-full w-full p-4 ${isTouchScreen ? "opacity-100" : "opacity-0"} hover:opacity-100 text-white bg-black/50`}>
               <p className="max-h-full max-w-full self-end text-wrap overflow-scroll">{press.title}</p>
