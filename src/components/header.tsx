@@ -33,7 +33,7 @@ export function Header() {
             <Accordion allowToggle >
               <AccordionItem>
                 <h2>
-                  <Link href="/">
+                  <Link href="/" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
                       <span className="text-lg">Home</span>
                     </AccordionButton>
@@ -43,7 +43,7 @@ export function Header() {
               <AccordionItem>
                 <h2>
                   <AccordionButton className="flex justify-between w-100">
-                    <Link href="/projects" className="text-lg">
+                    <Link href="/projects" className="text-lg" onClick={onClose}>
                       Projects
                     </Link>
                     <AccordionIcon />
@@ -51,12 +51,12 @@ export function Header() {
 
                 </h2>
                 <AccordionPanel>
-                  <Link href="/projects/face-a-j" className="hover:underline ml-4">Face A-J</Link>
+                  <Link href="/projects/face-a-j" className="hover:underline ml-4" onClick={onClose}>Face A-J</Link>
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
                 <h2>
-                  <Link href="/our-creatives">
+                  <Link href="/our-creatives" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
                       <span className="text-lg">Our Creatives</span>
                     </AccordionButton>
@@ -65,7 +65,7 @@ export function Header() {
               </AccordionItem>
               <AccordionItem>
                 <h2>
-                  <Link href="https://awatori-shop.com/">
+                  <Link href="https://awatori-shop.com/" target="_blank" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
                       <span className="text-lg">Shop</span>
                     </AccordionButton>
@@ -74,7 +74,7 @@ export function Header() {
               </AccordionItem>
               <AccordionItem>
                 <h2>
-                  <Link href="/whats-new">
+                  <Link href="/whats-new" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
                       <span className="text-lg">What's New</span>
                     </AccordionButton>
@@ -83,7 +83,7 @@ export function Header() {
               </AccordionItem>
               <AccordionItem>
                 <h2>
-                  <Link href="/company-overview">
+                  <Link href="/company-overview" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
                       <span className="text-lg">Company Overview</span>
                     </AccordionButton>
@@ -92,7 +92,7 @@ export function Header() {
               </AccordionItem>
               <AccordionItem>
                 <h2>
-                  <Link href="/contact-us">
+                  <Link href="/contact-us" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
                       <span className="text-lg">Contact Us</span>
                     </AccordionButton>
