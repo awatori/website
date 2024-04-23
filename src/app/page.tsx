@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import styles from "../styles/home.module.css";
 import { profiles } from "@/lib/teamData";
 import { ProfileCard } from "@/components/profileCard";
+import Image from "next/image";
 
 export default function Home() {
 

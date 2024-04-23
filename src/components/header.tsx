@@ -76,7 +76,7 @@ export function Header() {
                 <h2>
                   <Link href="/whats-new" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">What's New</span>
+                      <span className="text-lg">What&#39;s New</span>
                     </AccordionButton>
                   </Link>
                 </h2>
