@@ -2,7 +2,8 @@ import { creativesWithPages } from "@/lib/creativesData";
 import { getCreativeByPath } from "@/lib/creativesData";
 import { ImageSlider } from "@/components/imageSlider";
 import Image from "next/image";
-import { position } from "@chakra-ui/react";
+
+export const runtime = 'edge';
 
 export async function generateStaticParams() {
   return creativesWithPages.map((creative) => ({
