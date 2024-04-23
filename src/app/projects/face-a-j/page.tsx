@@ -18,7 +18,7 @@ export default function FaceAJ() {
           </div>
           <div className="flex flex-col w-full md:w-[49%]">
             <Link href="/projects/face-a-j/ss-2021">
-              <img src="/faceajss2021/Screenshot 2024-04-10 at 16.55.12.png" alt="placeholder image" className="w-full h-[60vh] object-cover" />
+              <img src="/faceajss2021/faceajss2021_01.png" alt="placeholder image" className="w-full h-[60vh] object-cover" />
               <h2 className="mt-2 hover:underline">SS 2021 →</h2>
             </Link>
           </div>
