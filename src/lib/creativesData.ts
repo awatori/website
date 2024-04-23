@@ -62,14 +62,14 @@ export const faceAJSS2020Creatives: Creative[] = [
 export const faceAJSS2021Creatives: Creative[] = [
   {
     name: ".m.jk",
-    country: "",
+    country: "Japan",
     image: "/creatives/mjk.jpg",
     alt: ".m.jk profile picture",
     url: "https://www.instagram.com/mjk_mjk/",
   },
   {
     name: "FahdUniverse",
-    country: "Artist",
+    country: "Nigeria",
     image: "/creatives/FahdUniverse.jpg",
     alt: "FahdUniverse profile picture",
     url: "https://www.instagram.com/fahdsuniverse/?utm_source=ig_profile_share&igshid=1foora8rivswa"

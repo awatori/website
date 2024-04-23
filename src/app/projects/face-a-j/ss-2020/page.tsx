@@ -22,7 +22,7 @@ export default function SS2020() {
         <ImageSlider images={faceAJSS2020Lagos} />
       </section>
       <section className="mt-12">
-        <h1 className="text-center md:text-left">The designers</h1>
+        <h1 className="text-center md:text-left">The creatives</h1>
         <CreativesContainer creatives={faceAJSS2020Creatives} />
       </section>
       <section className="mt-12">
