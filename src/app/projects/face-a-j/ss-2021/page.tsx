@@ -6,7 +6,8 @@ import { faceAJSS2021 } from "@/lib/imagesData"
 export default function SS2021() {
   return (
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16">
-      <h1 className="text-center md:text-left">Face A-J Tokyo</h1>
+      <h1 className="text-center md:text-left">Face A-J SS 2021 Tokyo</h1>
+      <iframe className="mt-6 aspect-video w-full" src="https://www.youtube.com/embed/0eA0s3H4aYE?si=4fmv5IAHswb-hVZq" title="YouTube video player" allowFullScreen></iframe>
       <section className="mt-6 flex flex-col items-center md:flex-none md:block">
         <img src="/logos/face-a-j.png" alt="FACE A-J logo" className="w-3/5 md:w-40 md:float-left mx-6 mb-10 md:my-2" />
         <p>On October 17th, 2020 is the official date set aside for the second phase of AWA’TORI’s Face A-J event. To be held during the Rakuten Fashion week, this phase would be showcasing a pop-up shop event featuring Nigerian skateboarding and streetwear brand, Wafflesncream. <br /><br />

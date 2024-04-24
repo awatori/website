@@ -83,6 +83,26 @@ export const faceAJSS2021Creatives: Creative[] = [
   }
 ]
 
+export const faceAJAW2021Creatives: Creative[] = [
+  {
+    name: "Children of the discordance",
+    country: "Japan",
+    image: "/creatives/children-of-the-discordance_portrait.jpg",
+    alt: "Children of the discordance profile picture",
+    url: "/our-creatives/children-of-the-discordance",
+  }
+];
+
+export const faceAJSS2022Creatives: Creative[] = [
+  {
+    name: "MAXHOSA AFRICA",
+    country: "South Africa",
+    image: "/creatives/Maxhosa-Africa.jpg",
+    alt: "MAXHOSA AFRICA logo",
+    url: "/our-creatives/maxhosa-africa",
+  }
+];
+
 export interface CreativesPage {
   name: string;
   path: string;
@@ -211,6 +231,37 @@ export const creativesWithPages: CreativesPage[] = [
       { url: "/faceajss2021/faceajss2021_04.png", alt: "Skater with WAFFLESNCREAM shirts" },
       { url: "/faceajss2021/faceajss2021_05.png", alt: "Close up of sneakers" },
       { url: "/faceajss2021/faceajss2021_09.png", alt: "Man in WAFFLESNCREAM merchandise" },
+    ]
+  },
+  {
+    name: "Children of the discordance (Japan)",
+    path: "children-of-the-discordance",
+    description: 'Created by designer Hideaki Shikama, the brand started to develop in the form of exhibitions from spring / summer 2012. The brand offers a handmade line produced in the atelier of longtime friend and artist Naoto Yoshida, which proposes a new interpretation of vintage wear. The products are highly rare. The brand also focuses on developing fair trade items with the Zapatistas of Mexico, the Maasai tribe of Africa, and the Hirbawi Textile Factory; the last textile factory in Palestine. "Discordance" means incongruity. The brand name reflects our desire to preserve our own unique style that is not in harmony with trends, society, or the times, which we have held since our teenage years when we first encountered fashion and music.',
+    pfp: "/creatives/children-of-the-discordance_portrait.jpg",
+    instagram: "https://www.instagram.com/children_of_the_discordance/",
+    website: "https://www.childrenofthediscordance.com/",
+    images: [
+      { url: "/faceajaw2021/faceajaw2021_01.png", alt: "Model walking down a runway" },
+      { url: "/faceajaw2021/faceajaw2021_02.jpg", alt: "Model walking down a runway" },
+      { url: "/faceajaw2021/faceajaw2021_03.jpg", alt: "Model walking down a runway" },
+      { url: "/faceajaw2021/faceajsw2021_04.jpg", alt: "Model walking down a runway" },
+    ]
+  },
+  {
+    name: "MAXHOSA AFRICA (South Africa)",
+    path: "maxhosa-africa",
+    description: "Founded in 2012 by Laduma Ngxokolo, Laduma is a South African knitwear brand whose initial vision was to create a modern knitwear collection inspired by his South African Kosa roots, As someone who has gone through the rite of passage himself, Laduma knew he had to develop premium knitwear that celebrated the traditional Kosa aesthetic. Laduma, having experienced the rite of passage himself, felt compelled to develop premium knitwear that celebrates the traditional Cosa aesthetic. In exploring the patterns, symbols, and colors of traditional Cosa beadwork, he found them to be a source of inspiration for his knitwear, giving it a new interpretation as modern knitwear. MAXHOSA AFRICA's designs express the beauty, culture, language, and hope of the Cosa people. These 'traditions' have been evolved in a modern way and incorporated into designs that fit the times. MAXHOSA AFRICA aims to be a leading brand in the African luxury fashion and lifestyle market.",
+    pfp: "/creatives/Maxhosa-Africa.jpg",
+    instagram: "https://www.instagram.com/maxhosa/",
+    website: "https://shop.maxhosa.africa/",
+    images: [
+      { url: "/faceajss2022/DSC06425.jpg", alt: "Two models in MAXHOSA AFRICA designs" },
+      { url: "/faceajss2022/DSC06543.jpg", alt: "Models in MAXHOSA AFRICA designs" },
+      { url: "/faceajss2022/L1010453.jpg", alt: "Model adjusting earring, close up" },
+      { url: "/faceajss2022/L1010630.jpg", alt: "Model sitting on couch" },
+      { url: "/faceajss2022/L1010516.jpg", alt: "Model in MAXHOSA design" },
+      { url: "/faceajss2022/L1010543.jpg", alt: "Model in MAXHOSA design" },
+      { url: "/faceajss2022/L1010681.jpg", alt: "Models in MAXHOSA design" },
     ]
   }
 ];
