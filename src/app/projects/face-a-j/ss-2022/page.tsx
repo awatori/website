@@ -8,8 +8,8 @@ export default function SS2022() {
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16">
       <h1 className="text-center md:text-left">Face A-J SS 2022</h1>
       <iframe className="mt-6 aspect-video w-full" src="https://www.youtube.com/embed/XdpnX41PNZk?si=aQuB25GH0h-U3Ugk" title="YouTube video player" allowFullScreen></iframe>
-      <section className="mt-6 flex flex-col items-center md:flex-none md:block">
-        <img src="/logos/face-a-j.png" alt="FACE A-J logo" className="w-3/5 md:w-40 md:float-left mx-6 mb-10 md:my-2" />
+      <section className="mt-6 items-center block">
+        <img src="/logos/face-a-j.png" alt="FACE A-J logo" className="w-32 md:w-40 float-left mx-6 mb-4 my-2" />
         <p>
           <strong>About the event:</strong> <br />
           Maxhosa Africa X TokyoKnit <br /><br />
