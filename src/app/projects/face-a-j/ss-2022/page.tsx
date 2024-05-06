@@ -2,14 +2,17 @@ import { ImageSlider } from "@/components/imageSlider"
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2022Creatives } from "@/lib/creativesData"
 import { faceAJSS2022 } from "@/lib/imagesData"
+import { LogosContainer } from "@/components/logosContainer"
+import { faceajss2022sponsors } from "@/lib/sponsorsData"
+import { faceajss2022media } from "@/lib/mediaEngagementData"
 
 export default function SS2022() {
   return (
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16">
       <h1 className="text-center md:text-left">Face A-J SS 2022</h1>
       <iframe className="mt-6 aspect-video w-full" src="https://www.youtube.com/embed/XdpnX41PNZk?si=aQuB25GH0h-U3Ugk" title="YouTube video player" allowFullScreen></iframe>
-      <section className="mt-6 flex flex-col items-center md:flex-none md:block">
-        <img src="/logos/face-a-j.png" alt="FACE A-J logo" className="w-3/5 md:w-40 md:float-left mx-6 mb-10 md:my-2" />
+      <section className="mt-6 items-center block">
+        <img src="/logos/face-a-j.png" alt="FACE A-J logo" className="w-32 md:w-40 float-left mx-6 mb-4 my-2" />
         <p>
           <strong>About the event:</strong> <br />
           Maxhosa Africa X TokyoKnit <br /><br />
@@ -28,10 +31,11 @@ export default function SS2022() {
       </section>
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
-        <div className="flex w-full justify-center gap-4 flex-wrap mt-10">
-          <img src="/logos/efi_logo.png" alt="Ethical Fashion Initiative logo" className="w-4/5 lg:w-2/5 object-contain" />
-          <img src="/logos/united_arrows_logo.png" alt="United Arrows logo" className="w-4/5 lg:w-2/5 object-contain" />
-        </div>
+        <LogosContainer logos={faceajss2022sponsors} />
+      </section>
+      <section className="mt-12">
+        <h1 className="text-center md:text-left">Media Engagement</h1>
+        <LogosContainer logos={faceajss2022media} />
       </section>
     </main>
   )
