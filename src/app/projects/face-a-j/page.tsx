@@ -37,7 +37,7 @@ export default function FaceAJ() {
         </div>
         <h1 className="text-center md:text-left">FACE A-J Production Team</h1>
         <hr />
-        <p className="mt-6"><strong>Founder:</strong> AWA’TORI (Co-Founder) Bukky Adejobi / Seiko Mbako (Co-Founder) / Yuki Ochiai (Awa'Tori Brand Strategist) <br />
+        <p className="mt-6"><strong>Founder:</strong> AWA&#39;TORI (Co-Founder) Bukky Adejobi / Seiko Mbako (Co-Founder) / Yuki Ochiai (Awa&#39;Tori Brand Strategist) <br />
           <strong>Project Director:</strong> Hirofumi Kurino <br />
           <strong>Show Director:</strong> Shigetaka Kaneko <br />
           <strong>FACE.A-J Logo Design:</strong> Jun Takahashi <br />
