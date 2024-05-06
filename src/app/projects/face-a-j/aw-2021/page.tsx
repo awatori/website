@@ -4,6 +4,7 @@ import { faceAJAW2021Creatives } from "@/lib/creativesData"
 import { faceAJAW2021 } from "@/lib/imagesData"
 import { LogosContainer } from "@/components/logosContainer"
 import { faceajaw2021sponsors } from "@/lib/sponsorsData"
+import { faceajaw2021media } from "@/lib/mediaEngagementData"
 
 export default function AW2021() {
   return (
@@ -27,6 +28,10 @@ export default function AW2021() {
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
         <LogosContainer logos={faceajaw2021sponsors} />
+      </section>
+      <section className="mt-12">
+        <h1 className="text-center md:text-left">Media Engagement</h1>
+        <LogosContainer logos={faceajaw2021media} />
       </section>
     </main>
   )

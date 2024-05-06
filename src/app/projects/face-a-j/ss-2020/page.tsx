@@ -4,6 +4,7 @@ import { faceAJSS2020Creatives } from "@/lib/creativesData"
 import { faceAJSS2020Tokyo, faceAJSS2020Lagos } from "@/lib/imagesData"
 import { LogosContainer } from "@/components/logosContainer"
 import { faceajss2020sponsors } from "@/lib/sponsorsData"
+import { faceajss2020media } from "@/lib/mediaEngagementData"
 
 export default function SS2020() {
   return (
@@ -31,6 +32,10 @@ export default function SS2020() {
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
         <LogosContainer logos={faceajss2020sponsors} />
+      </section>
+      <section className="mt-12">
+        <h1 className="text-center md:text-left">Media Engagement</h1>
+        <LogosContainer logos={faceajss2020media} />
       </section>
     </main>
   )

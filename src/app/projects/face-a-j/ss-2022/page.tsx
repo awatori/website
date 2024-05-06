@@ -4,6 +4,7 @@ import { faceAJSS2022Creatives } from "@/lib/creativesData"
 import { faceAJSS2022 } from "@/lib/imagesData"
 import { LogosContainer } from "@/components/logosContainer"
 import { faceajss2022sponsors } from "@/lib/sponsorsData"
+import { faceajss2022media } from "@/lib/mediaEngagementData"
 
 export default function SS2022() {
   return (
@@ -31,6 +32,10 @@ export default function SS2022() {
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
         <LogosContainer logos={faceajss2022sponsors} />
+      </section>
+      <section className="mt-12">
+        <h1 className="text-center md:text-left">Media Engagement</h1>
+        <LogosContainer logos={faceajss2022media} />
       </section>
     </main>
   )

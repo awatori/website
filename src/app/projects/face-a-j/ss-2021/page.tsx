@@ -4,6 +4,7 @@ import { faceAJSS2021Creatives } from "@/lib/creativesData"
 import { faceAJSS2021 } from "@/lib/imagesData"
 import { LogosContainer } from "@/components/logosContainer"
 import { faceajss2021sponsors } from "@/lib/sponsorsData"
+import { faceajss2021media } from "@/lib/mediaEngagementData"
 
 export default function SS2021() {
   return (
@@ -33,6 +34,10 @@ export default function SS2021() {
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
         <LogosContainer logos={faceajss2021sponsors} />
+      </section>
+      <section className="mt-12">
+        <h1 className="text-center md:text-left">Media Engagement</h1>
+        <LogosContainer logos={faceajss2021media} />
       </section>
     </main>
   )
