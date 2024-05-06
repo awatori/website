@@ -2,6 +2,8 @@ import { ImageSlider } from "@/components/imageSlider"
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJAW2021Creatives } from "@/lib/creativesData"
 import { faceAJAW2021 } from "@/lib/imagesData"
+import { LogosContainer } from "@/components/logosContainer"
+import { faceajaw2021sponsors } from "@/lib/sponsorsData"
 
 export default function AW2021() {
   return (
@@ -24,10 +26,7 @@ export default function AW2021() {
       </section>
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
-        <div className="flex w-full justify-center gap-4 flex-wrap mt-10">
-          <img src="/logos/efi_logo.png" alt="Ethical Fashion Initiative logo" className="w-4/5 lg:w-2/5 object-contain" />
-          <img src="/logos/united_arrows_logo.png" alt="United Arrows logo" className="w-4/5 lg:w-2/5 object-contain" />
-        </div>
+        <LogosContainer logos={faceajaw2021sponsors} />
       </section>
     </main>
   )

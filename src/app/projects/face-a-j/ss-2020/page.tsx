@@ -2,8 +2,8 @@ import { ImageSlider } from "@/components/imageSlider"
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2020Creatives } from "@/lib/creativesData"
 import { faceAJSS2020Tokyo, faceAJSS2020Lagos } from "@/lib/imagesData"
-import { SponsorsContainer } from "@/components/sponsorsContainer"
-import { faceajss2020sponsors } from "@/lib/sponsortsData"
+import { LogosContainer } from "@/components/logosContainer"
+import { faceajss2020sponsors } from "@/lib/sponsorsData"
 
 export default function SS2020() {
   return (
@@ -30,7 +30,7 @@ export default function SS2020() {
       </section>
       <section className="mt-12">
         <h1 className="text-center md:text-left">Sponsors</h1>
-        <SponsorsContainer sponsors={faceajss2020sponsors} />
+        <LogosContainer logos={faceajss2020sponsors} />
       </section>
     </main>
   )
