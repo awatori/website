@@ -1,5 +1,6 @@
 import { projects } from "@/lib/projectsData"
 import { ProjectCard } from "@/components/projectCard"
+import { mediaPartnerships } from "@/lib/mediaPartnershipsData"
 
 export default function Projects() {
   return (
@@ -7,6 +8,10 @@ export default function Projects() {
       <h1>Projects</h1>
       {projects.map((project) => (
         <ProjectCard key={project.name} project={project} />
+      ))}
+      <h1 className="mt-10">Media Partnerships</h1>
+      {mediaPartnerships.map((media) => (
+        <ProjectCard key={media.name} project={media} />
       ))}
     </main>
   )
