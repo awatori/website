@@ -5,39 +5,11 @@ export interface Press {
   thumbnail: string,
 }
 
-export const faceajss2021press: Press[] = [
-  {
-    title: "西アフリカ初のスケートブランドが青山でインスタレーション、「FACE.A-J」の第2弾開催",
-    link: "https://www.fashionsnap.com/article/2020-10-17/wafflesncream-faceaj/",
-    thumbnail: "/press/faceajss2021/faceajss2021_12.jpg"
-  },
-  {
-    title: "「FACE A-J VOL.2」開催。COGNOMEN 大江氏とタッグ、ナイジェリア発WAFFLESNCREAMによるプレゼンテーション。",
-    link: "https://qui.tokyo/feature/face-a-j-vol-2",
-    thumbnail: "/press/faceajss2021/faceajss2021_13.jpg"
-  }
-];
-
-export const faceajss2020press: Press[] = [
+export const media2019: Press[] = [
   {
     title: "ファッション業界が注目するアフリカと日本の交流。「FACE. A-Jプロジェクト」とは",
     link: "https://numero.jp/news-20190926-face-a-j/",
     thumbnail: "/press/faceajss2020/FACEAJ_image001.jpg"
-  },
-  {
-    title: "Awa’Tori: A Cultural Bridge Between African and Japanese Fashion",
-    link: "https://www.tokyoweekender.com/2020/06/awatori-cultural-bridge-african-japanese-fashion/",
-    thumbnail: "/press/faceajss2020/AwaTori-Japan-fashion-Tokyo-Weekender-feature-768x512.jpg"
-  },
-  {
-    title: "FACE A-J 2020 S/S Collection | Rakuten Fashion Week TOKYO 2020 S/S",
-    link: "https://www.tokyoweekender.com/2020/06/awatori-cultural-bridge-african-japanese-fashion/",
-    thumbnail: "/press/faceajss2020/FACE-A-J-2020-SS-Collection-Rakuten-Fashion-Week-TOKYO-2020-SS-768x432.jpg"
-  },
-  {
-    title: "FACE A-J, directed by Awa'Tori, brought a spectacle of Japanese and African creative collaboration to Lagos Fashion Week 2019",
-    link: "http://nataal.com/lagos-meets-tokyo",
-    thumbnail: "/press/faceajss2020/nataal.com_lagos-meets-tokyo-768x481.jpg"
   },
   {
     title: "FACE.A-J 平和へ、アフリカ×日本",
@@ -78,5 +50,28 @@ export const faceajss2020press: Press[] = [
     title: "「フェイス.A-J」2020年春夏東京コレクション",
     link: "https://www.wwdjapan.com/articles/962605",
     thumbnail: "/press/faceajss2020/191016_FACEAJ_1-768x1152.jpg"
+  },
+];
+
+export const media2020: Press[] = [
+  {
+    title: "西アフリカ初のスケートブランドが青山でインスタレーション、「FACE.A-J」の第2弾開催",
+    link: "https://www.fashionsnap.com/article/2020-10-17/wafflesncream-faceaj/",
+    thumbnail: "/press/faceajss2021/faceajss2021_12.jpg"
+  },
+  {
+    title: "「FACE A-J VOL.2」開催。COGNOMEN 大江氏とタッグ、ナイジェリア発WAFFLESNCREAMによるプレゼンテーション。",
+    link: "https://qui.tokyo/feature/face-a-j-vol-2",
+    thumbnail: "/press/faceajss2021/faceajss2021_13.jpg"
+  },
+  {
+    title: "Awa’Tori: A Cultural Bridge Between African and Japanese Fashion",
+    link: "https://www.tokyoweekender.com/2020/06/awatori-cultural-bridge-african-japanese-fashion/",
+    thumbnail: "/press/faceajss2020/AwaTori-Japan-fashion-Tokyo-Weekender-feature-768x512.jpg"
+  },
+  {
+    title: "FACE A-J 2020 S/S Collection | Rakuten Fashion Week TOKYO 2020 S/S",
+    link: "https://www.tokyoweekender.com/2020/06/awatori-cultural-bridge-african-japanese-fashion/",
+    thumbnail: "/press/faceajss2020/FACE-A-J-2020-SS-Collection-Rakuten-Fashion-Week-TOKYO-2020-SS-768x432.jpg"
   },
 ];
