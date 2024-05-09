@@ -166,11 +166,11 @@ export const creativesWithPages: CreativesPage[] = [
     instagram: "https://www.instagram.com/yoshikazuyamagata/",
     website: null,
     images: [
-      { url: "/faceajss2020/tokyo/coyote/_DSC7177.jpg", alt: "Models on stage" },
-      { url: "/faceajss2020/tokyo/coyote/_DSC7181.jpg", alt: "Models on stage from a diagonal" },
-      { url: "/faceajss2020/tokyo/coyote/_DSC7196.jpg", alt: "Focus on on model in lineup" },
-      { url: "/faceajss2020/tokyo/coyote/_DSC7203.jpg", alt: "Two models shoulder to shoulder" },
-      { url: "/faceajss2020/tokyo/coyote/IMG_2298.JPG", alt: "Coyote clothes on rack" },
+      { url: "/faceajss2020/tokyo/coyote/DSC7177.jpg", alt: "Models on stage" },
+      { url: "/faceajss2020/tokyo/coyote/DSC7181.jpg", alt: "Models on stage from a diagonal" },
+      { url: "/faceajss2020/tokyo/coyote/DSC7196.jpg", alt: "Focus on on model in lineup" },
+      { url: "/faceajss2020/tokyo/coyote/DSC7203.jpg", alt: "Two models shoulder to shoulder" },
+      { url: "/faceajss2020/tokyo/coyote/img_2298.jpg", alt: "Coyote clothes on rack" },
     ]
   },
   {
