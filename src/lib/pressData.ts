@@ -24,7 +24,7 @@ export const media2019: Press[] = [
   {
     title: "L’Africa e il Giappone insieme per FACE.A-J 2019",
     link: "https://www.vogue.it/vogue-talents/article/moda-africa-giappone-facea-j-2019-tokyo-fashion-week",
-    thumbnail: "/press/faceajss2020/Home-Economics-AW18_16-Face-A.J-Ⓒ-Thebe-Magugu-768x1152.jpg"
+    thumbnail: "/press/faceajss2020/Thebe-Magugu-768x1152.jpg"
   },
   {
     title: "Just In: Thebe Magugu, Kenneth Ize & Anyango Mpinga Part Of Awa’Tori’s Inaugural “FACE.A-J” Collective In Tokyo",
