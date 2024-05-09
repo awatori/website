@@ -8,8 +8,8 @@ export default function ContactUs() {
       <section className="mt-10 mx-14 md:mx-20 lg:mx-36">
         <h1>Contact Us</h1>
         <p className="mt-2">For collaborations and or sponsorship, please contact us via the information provided below. We would love to hear from you.</p>
-        <div className="flex mt-10 gap-16">
-          <div className="w-1/2">
+        <div className="flex flex-col md:flex-row mt-10 gap-16">
+          <div className="w-full md:w-1/2">
             <form action="">
               <div className="flex gap-6">
                 <div className="w-1/2">
@@ -32,7 +32,7 @@ export default function ContactUs() {
               <button className="w-full bg-black text-white py-2 px-4 mt-4 rounded">Submit</button>
             </form>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <div>
               <h2>The Office</h2>
               <div className="flex w-full gap-4 mt-4">
