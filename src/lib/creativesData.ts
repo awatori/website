@@ -196,11 +196,11 @@ export const creativesWithPages: CreativesPage[] = [
     instagram: "https://www.instagram.com/kennethize/",
     website: "https://www.kennethize.net/",
     images: [
-      { url: "/faceajss2020/tokyo/kenneth/_DSC6878.jpg", alt: "Kenneth Ize" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC7228.jpg", alt: "Upclose of male model's face" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC6833.jpg", alt: "Kenneth Ize backstage" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC7231.jpg", alt: "Models on stage" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC7226.jpg", alt: "Models on stage" },
+      { url: "/faceajss2020/tokyo/kenneth/DSC6878.jpg", alt: "Kenneth Ize" },
+      { url: "/faceajss2020/tokyo/kenneth/DSC7228.jpg", alt: "Upclose of male model's face" },
+      { url: "/faceajss2020/tokyo/kenneth/DSC6833.jpg", alt: "Kenneth Ize backstage" },
+      { url: "/faceajss2020/tokyo/kenneth/DSC7231.jpg", alt: "Models on stage" },
+      { url: "/faceajss2020/tokyo/kenneth/DSC7226.jpg", alt: "Models on stage" },
     ]
   },
   {
