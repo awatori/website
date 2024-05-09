@@ -166,11 +166,11 @@ export const creativesWithPages: CreativesPage[] = [
     instagram: "https://www.instagram.com/yoshikazuyamagata/",
     website: null,
     images: [
-      { url: "/faceajss2020/tokyo/coyote/_DSC7177.jpg", alt: "Models on stage" },
-      { url: "/faceajss2020/tokyo/coyote/_DSC7181.jpg", alt: "Models on stage from a diagonal" },
-      { url: "/faceajss2020/tokyo/coyote/_DSC7196.jpg", alt: "Focus on on model in lineup" },
-      { url: "/faceajss2020/tokyo/coyote/_DSC7203.jpg", alt: "Two models shoulder to shoulder" },
-      { url: "/faceajss2020/tokyo/coyote/IMG_2298.JPG", alt: "Coyote clothes on rack" },
+      { url: "/faceajss2020/tokyo/COYOTE/coyote_01.jpg", alt: "Models on stage" },
+      { url: "/faceajss2020/tokyo/COYOTE/coyote_02.jpg", alt: "Models on stage from a diagonal" },
+      { url: "/faceajss2020/tokyo/COYOTE/coyote_03.jpg", alt: "Focus on on model in lineup" },
+      { url: "/faceajss2020/tokyo/COYOTE/coyote_04.jpg", alt: "Two models shoulder to shoulder" },
+      { url: "/faceajss2020/tokyo/COYOTE/coyote_05.jpg", alt: "Coyote clothes on rack" },
     ]
   },
   {
@@ -196,11 +196,11 @@ export const creativesWithPages: CreativesPage[] = [
     instagram: "https://www.instagram.com/kennethize/",
     website: "https://www.kennethize.net/",
     images: [
-      { url: "/faceajss2020/tokyo/kenneth/_DSC6878.jpg", alt: "Kenneth Ize" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC7228.jpg", alt: "Upclose of male model's face" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC6833.jpg", alt: "Kenneth Ize backstage" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC7231.jpg", alt: "Models on stage" },
-      { url: "/faceajss2020/tokyo/kenneth/_DSC7226.jpg", alt: "Models on stage" },
+      { url: "/faceajss2020/tokyo/Kenneth/kenneth_01.jpg", alt: "Kenneth Ize" },
+      { url: "/faceajss2020/tokyo/Kenneth/kenneth_02.jpg", alt: "Upclose of male model's face" },
+      { url: "/faceajss2020/tokyo/Kenneth/kenneth_03.jpg", alt: "Kenneth Ize backstage" },
+      { url: "/faceajss2020/tokyo/Kenneth/kenneth_04.jpg", alt: "Models on stage" },
+      { url: "/faceajss2020/tokyo/Kenneth/kenneth_05.jpg", alt: "Models on stage" },
     ]
   },
   {
