@@ -1,7 +1,8 @@
-import { creativesWithPages } from "@/lib/creativesData";
-import { getCreativeByPath } from "@/lib/creativesData";
-import { ImageSlider } from "@/components/imageSlider";
-import Image from "next/image";
+import { creativesWithPages } from "@/lib/creativesData"
+import { getCreativeByPath } from "@/lib/creativesData"
+import { ImageSlider } from "@/components/imageSlider"
+import Image from "next/image"
+import Link from "next/link"
 
 export const runtime = 'edge';
 
@@ -31,8 +32,8 @@ export default function Creative({ params }: {
           <h1 className="text-center md:text-left">{thisProfile!.name}</h1>
           <p className="mt-4 mb-6">{thisProfile!.description}</p>
           <div className="flex justify-center md:justify-start mt-auto gap-2">
-            {(thisProfile!.instagram) ? <button><Image src="/icons/instagram_icon_black.png" alt="Instagram icon" width={40} height={40} /></button> : null}
-            {(thisProfile!.website) ? <button><Image src="/icons/website_icon.png" alt="Website icon" width={40} height={40} /></button> : null}
+            {(thisProfile!.instagram) ? <Link href={thisProfile!.instagram}><Image src="/icons/instagram_icon_black.png" alt="Instagram icon" width={40} height={40} /></Link> : null}
+            {(thisProfile!.website) ? <Link href={thisProfile!.website}><Image src="/icons/website_icon.png" alt="Website icon" width={40} height={40} /></Link> : null}
           </div>
         </div>
       </section>

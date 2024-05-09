@@ -42,3 +42,20 @@ export const faceAJSS2021: Image[] = [
   { url: "/faceajss2021/faceajss2021_10.png", alt: "Skater in the middle of a skate ramp" },
   { url: "/faceajss2021/faceajss2021_11.png", alt: "Skater mid-flip" },
 ];
+
+export const faceAJAW2021: Image[] = [
+  { url: "/faceajaw2021/faceajaw2021_01.png", alt: "Model walking down a runway" },
+  { url: "/faceajaw2021/faceajaw2021_02.jpg", alt: "Model walking down a runway" },
+  { url: "/faceajaw2021/faceajaw2021_03.jpg", alt: "Model walking down a runway" },
+  { url: "/faceajaw2021/faceajsw2021_04.jpg", alt: "Model walking down a runway" },
+];
+
+export const faceAJSS2022: Image[] = [
+  { url: "/faceajss2022/DSC06425.jpg", alt: "Two models in MAXHOSA AFRICA designs" },
+  { url: "/faceajss2022/DSC06543.jpg", alt: "Models in MAXHOSA AFRICA designs" },
+  { url: "/faceajss2022/L1010453.jpg", alt: "Model adjusting earring, close up" },
+  { url: "/faceajss2022/L1010630.jpg", alt: "Model sitting on couch" },
+  { url: "/faceajss2022/L1010516.jpg", alt: "Model in MAXHOSA design" },
+  { url: "/faceajss2022/L1010543.jpg", alt: "Model in MAXHOSA design" },
+  { url: "/faceajss2022/L1010681.jpg", alt: "Models in MAXHOSA design" },
+];

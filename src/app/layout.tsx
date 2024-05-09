@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${arsenal.variable} ${karla.className}`}>
+        <link rel="icon" href="/logos/awatori_logo_black.png" sizes="any" />
         <Providers>
           {children}
           <Header />
