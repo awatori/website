@@ -6,7 +6,7 @@ export default function CompanyOverview() {
       <section className="text-xs md:text-sm">
         <div className="flex gap-10 mt-8">
           <p className="font-bold w-1/3 md:w-1/4">Company Name</p>
-          <p>Awa'Tori</p>
+          <p>Awa&#39;Tori</p>
         </div>
         <div className="flex gap-10 mt-8">
           <p className="font-bold w-1/3 md:w-1/4 shrink-0">Representative</p>
