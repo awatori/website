@@ -26,9 +26,11 @@ export default async function LocaleLayout({
       <body className={`${arsenal.variable} ${karla.className}`}>
         <link rel="icon" href="/logos/awatori_logo_black.png" sizes="any" />
         <NextIntlClientProvider messages={messages}>
-          {children}
-          <Header />
-          <Footer />
+          <Providers>
+            {children}
+            <Header />
+            <Footer />
+          </Providers>
         </NextIntlClientProvider>
         {/* <Providers>
           {children}
