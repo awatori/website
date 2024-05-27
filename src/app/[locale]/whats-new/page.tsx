@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { PressContainer } from "@/components/pressContainer"
 import { media2019, media2020 } from "@/lib/pressData"
 

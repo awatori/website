@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2020Creatives, faceAJSS2021Creatives, faceAJAW2021Creatives, faceAJSS2022Creatives } from "@/lib/creativesData"
 

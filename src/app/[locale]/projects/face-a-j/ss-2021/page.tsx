@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { ImageSlider } from "@/components/imageSlider"
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2021Creatives } from "@/lib/creativesData"

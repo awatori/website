@@ -1,5 +1,7 @@
 // import Image from "next/image";
 'use client'
+export const runtime = 'edge';
+
 import { useEffect } from "react";
 import styles from "/src/styles/home.module.css";
 import { profiles } from "@/lib/teamData";
