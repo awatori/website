@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { projects } from "@/lib/projectsData"
 import { ProjectCard } from "@/components/projectCard"
 import { mediaPartnerships } from "@/lib/mediaPartnershipsData"

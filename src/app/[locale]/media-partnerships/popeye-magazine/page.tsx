@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 export default function PopeyeMagazine() {
   return (
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16 min-h-screen">
