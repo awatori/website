@@ -6,7 +6,7 @@ import "../globals.css";
 import "../globals.icons.css";
 import { karla, arsenal } from "@/lib/fonts";
 import { NextIntlClientProvider } from 'next-intl';
-import { getLocale, getMessages } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 
 export const metadata: Metadata = {
   title: "Awa'Tori"

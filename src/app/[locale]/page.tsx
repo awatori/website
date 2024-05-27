@@ -57,9 +57,7 @@ export default function Home() {
       </section>
       <section className="mx-14 md:mx-20 lg:mx-36 my-12">
         <h1 className="text-center md:text-left">{t("about-title")}</h1>
-        <p className="mt-4">{t("about1")} <br /><br />
-          {t("about2")} <br /><br />
-          {t("about3")}
+        <p className="mt-4 whitespace-pre-line">{t("about-description")} <br /><br />
         </p>
         <h1 className="mt-12 text-center md:text-left">{t("team")}</h1>
         <div className="flex flex-col mt-8 gap-6 mb-24">

@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link";
-
+import { useParams, usePathname, useRouter } from 'next/navigation'
 import {
   Drawer, DrawerBody, DrawerOverlay, DrawerContent, DrawerCloseButton, useDisclosure,
   Accordion, AccordionPanel, AccordionItem, AccordionButton, AccordionIcon
@@ -8,12 +8,21 @@ import {
 
 export function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { locale } = useParams();
+  const router = useRouter()
+  const pathname = usePathname();
+
+  function onClick() {
+    const newLocale = locale === "en" ? "ja" : "en";
+    const newPath = pathname.slice(3);
+    router.push(`/${newLocale}${newPath}`, { scroll: false });
+  }
 
   return (
     <>
       <header className="fixed top-0 flex justify-between items-center px-8 py-2 text-white w-full bg-black"
         id="header">
-        <Link href="/" className="w-1/4">Language</Link>
+        <button className="w-1/4 text-left" onClick={onClick}>{locale === "en" ? "🇯🇵 日本語" : "🇬🇧 English"}</button>
         <div className="w-1/4 flex justify-center">
           <Link href="/"><img src="/logos/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-16 my-1" id="header-logo" /></Link>
         </div>

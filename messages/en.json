@@ -1,9 +1,7 @@
 {
   "Home": {
     "about-title": "About Us",
-    "about1": "Awa'Tori meaning “Our Story” in Pidgin English (widely spoken language across anglophone African countries), and in Japanese, loosely translated as Awa – 合わせ meaning bringing several cultures together and Tori – 通り as in bridging the African and Japanese creative markets.",
-    "about2": "Founded in 2019 by Bukky Adejobi and Seiko Mbako, Awa'Tori is a platform that is passionate about the African and Japanese creative industry. We believe the creatives in the African and Asian markets have stories worth telling that are expressed in the form of fashion, arts, music, or film. Cut off from certain parts of the world, we believe it is our responsibility to help them tell their stories beyond their respective borders.",
-    "about3": "With the overarching mission to contribute socioeconomic development in Africa and Japan, Bukky and Seiko, both of African descent, believe in the power of such a synergy. Through partnerships with stakeholders from the supply chain and collaborations with third part organizations, Awa’Tori aims to develop and facilitate projects that foster sustainable partnerships that bridges the gap between the Creative Industries of Africa and Japan.",
+    "about-description": "Awa'Tori meaning “Our Story” in Pidgin English (widely spoken language across anglophone African countries), and in Japanese, loosely translated as Awa – 合わせ meaning bringing several cultures together and Tori – 通り as in bridging the African and Japanese creative markets. \n\n Founded in 2019 by Bukky Adejobi and Seiko Mbako, Awa'Tori is a platform that is passionate about the African and Japanese creative industry. We believe the creatives in the African and Asian markets have stories worth telling that are expressed in the form of fashion, arts, music, or film. Cut off from certain parts of the world, we believe it is our responsibility to help them tell their stories beyond their respective borders. \n\n With the overarching mission to contribute socioeconomic development in Africa and Japan, Bukky and Seiko, both of African descent, believe in the power of such a synergy. Through partnerships with stakeholders from the supply chain and collaborations with third part organizations, Awa’Tori aims to develop and facilitate projects that foster sustainable partnerships that bridges the gap between the Creative Industries of Africa and Japan.",
     "team": "Our Team"
   },
   "Team": {
@@ -12,6 +10,6 @@
     "Seiko Mbako": "Seiko Mbako",
     "seiko-intro": "Cameroonian-Japanese based in Tokyo, working in diplomatic affairs serving as Cultural Affairs advisor for the DR Congo. Founder & CEO of Fearless in Fashion, providing styling and brand consulting services for a majorly expat-based clientele & 846 Tokyo, focused on conversations about racism in Japan. Co-Founder & President of Awa’Tori.",
     "Dennis Ilic": "Dennis Ilic",
-    "dennis-intro": ""
+    "dennis-intro": "German living and working in Japan, engineering background with Master in Aerospace Engineering. Founder & CTO of eMotion Fleet Inc., providing one-stop fleet electrification solutions for fleet operators in Japan. COO of Awa'Tori."
   }
 }
