@@ -5,12 +5,15 @@ import {
   Drawer, DrawerBody, DrawerOverlay, DrawerContent, DrawerCloseButton, useDisclosure,
   Accordion, AccordionPanel, AccordionItem, AccordionButton, AccordionIcon
 } from "@chakra-ui/react";
+import { useTranslations } from "next-intl";
 
 export function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { locale } = useParams();
   const router = useRouter()
   const pathname = usePathname();
+
+  const t = useTranslations("Menu");
 
   function onClick() {
     const newLocale = locale === "en" ? "ja" : "en";
@@ -44,7 +47,7 @@ export function Header() {
                 <h2>
                   <Link href="/" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">Home</span>
+                      <span className="text-lg">{t("home")}</span>
                     </AccordionButton>
                   </Link>
                 </h2>
@@ -53,7 +56,7 @@ export function Header() {
                 <h2>
                   <AccordionButton className="flex justify-between w-100">
                     <Link href="/projects" className="text-lg" onClick={onClose}>
-                      Projects
+                      {t("projects")}
                     </Link>
                     <AccordionIcon />
                   </AccordionButton>
@@ -67,7 +70,7 @@ export function Header() {
                 <h2>
                   <Link href="/our-creatives" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">Our Creatives</span>
+                      <span className="text-lg">{t("creatives")}</span>
                     </AccordionButton>
                   </Link>
                 </h2>
@@ -76,7 +79,7 @@ export function Header() {
                 <h2>
                   <Link href="https://awatori-shop.com/" target="_blank" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">Shop</span>
+                      <span className="text-lg">{t("shop")}</span>
                     </AccordionButton>
                   </Link>
                 </h2>
@@ -85,7 +88,7 @@ export function Header() {
                 <h2>
                   <Link href="/whats-new" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">What&#39;s New</span>
+                      <span className="text-lg">{t("whats-new")}</span>
                     </AccordionButton>
                   </Link>
                 </h2>
@@ -94,7 +97,7 @@ export function Header() {
                 <h2>
                   <Link href="/company-overview" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">Company Overview</span>
+                      <span className="text-lg">{t("company-overview")}</span>
                     </AccordionButton>
                   </Link>
                 </h2>
@@ -103,7 +106,7 @@ export function Header() {
                 <h2>
                   <Link href="/contact-us" onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
-                      <span className="text-lg">Contact Us</span>
+                      <span className="text-lg">{t("contact")}</span>
                     </AccordionButton>
                   </Link>
                 </h2>
