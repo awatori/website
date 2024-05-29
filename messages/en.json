@@ -14,11 +14,28 @@
   },
   "Menu": {
     "home": "Home",
-    "projects": "Projects",
+    "works": "Works",
     "creatives": "Our Creatives",
     "shop": "Shop",
     "whats-new": "What's New",
     "company-overview": "Company Overview",
     "contact": "Contact Us"
+  },
+  "FaceAJ": {
+    "title": "Fashion & Cultural Exchange Africa-Japan (FACE A-J)",
+    "description": "\"Fashion is Change. Fashion can Change\" \n\n FACE.A-J is a collective that showcases the culture and creativity from Africa and Japan, including an interactive fashion presentation, and panel discussions with the top names in the fashion and creative world. Fashion, Art, and Culture transcend politics and social conflicts, and inequalities. Through Fashion, Art, and Culture, FACE.A-J aims to create a platform that shows the true face of Africa and Japan, to bridge the gap between both creative markets, change misconceptions, and foster economic and cultural development.",
+    "production": "FACE A-J Production Team",
+    "founder": "Founder: ",
+    "awatori-founders": "AWA'TORI Bukky Adejobi (Co-Founder) / Seiko Mbako (Co-Founder)",
+    "project-director": "Project Director: ",
+    "Hirofumi Kurino": "Hirofumi Kurino",
+    "show-director": "Show Director: ",
+    "Shigetaka Kaneko": "Shigetaka Kaneko",
+    "logo": "FACE AJ Logo Design: ",
+    "Jun Takahashi": "Jun Takahashi",
+    "pr": "PR: ",
+    "Keitaro Nagasaka": "Keitaro Nagasaka (Sakas PR)",
+    "advisors": "Advisors: ",
+    "faceaj-advisors": "Akiko Shinoda (ITOCHU Corporation), Kaoru Imajo (Japan Fashion Week Organization)"
   }
 }

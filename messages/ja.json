@@ -14,11 +14,28 @@
   },
   "Menu": {
     "home": "ホーム",
-    "projects": "プロジェクト",
+    "works": "プロジェクト",
     "creatives": "クリエーターたち",
     "shop": "ショップ",
     "whats-new": "新着情報",
     "company-overview": "会社概要",
     "contact": "お問い合わせ"
+  },
+  "FaceAJ": {
+    "title": "Fashion & Cultural Exchange Africa-Japan (FACE A-J)",
+    "description": "ファッションとは変化を楽しむものであり、ファッションとは世界を変えることのできるもの。\n\nFACE.A-Jは、ファッションのショー開催、ファッション業界やクリエイティブ業界の著名人とのパネルディスカッションなどを通じて、アフリカと日本の文化、そしてクリエイティビティを紹介するプロジェクトです。ファッションやアート、カルチャーは、政治的・社会的な対立や不平等を超越するものです。 FACE.A-Jは、ファッション、アート、カルチャーを通じて、アフリカと日本の真の姿を紹介するプラットフォームを形成することで、それぞれのクリエイティブ産業のギャップを埋め、両地域に対する誤解をなくすとともに、経済的および文化的発展の促進を目指しています。",
+    "production": "FACE A-J プロダクションチーム",
+    "founder": "ファウンダー: ",
+    "awatori-founders": "Awa'Tori ブッキー・アデジョビ（共同創設者）/ 清子・ウンバコ（共同創設者）",
+    "project-director": "プロジェクトディレクター: ",
+    "Hirofumi Kurino": "栗野宏文",
+    "show-director": "ショーディレクター: ",
+    "Shigetaka Kaneko": "金子繁孝",
+    "logo": "FACE.A-Jロゴデザイン: ",
+    "Jun Takahashi": "高橋盾",
+    "pr": "プレス: ",
+    "Keitaro Nagasaka": "長坂啓太郎（Sakas PR）",
+    "advisors": "アドバイザー: ",
+    "faceaj-advisors": "信田阿芸子(伊藤忠商事株式会社) 、今城薫 (一般社団法人日本ファッション・ウィーク推進機構)"
   }
 }
