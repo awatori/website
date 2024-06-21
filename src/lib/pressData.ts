@@ -5,7 +5,7 @@ export interface Press {
   thumbnail: string,
 }
 
-export const media2019: Press[] = [
+export const media: Press[] = [
   {
     title: "ファッション業界が注目するアフリカと日本の交流。「FACE. A-Jプロジェクト」とは",
     link: "https://numero.jp/news-20190926-face-a-j/",
@@ -51,9 +51,6 @@ export const media2019: Press[] = [
     link: "https://www.wwdjapan.com/articles/962605",
     thumbnail: "/press/faceajss2020/191016_FACEAJ_1-768x1152.jpg"
   },
-];
-
-export const media2020: Press[] = [
   {
     title: "西アフリカ初のスケートブランドが青山でインスタレーション、「FACE.A-J」の第2弾開催",
     link: "https://www.fashionsnap.com/article/2020-10-17/wafflesncream-faceaj/",
@@ -73,5 +70,10 @@ export const media2020: Press[] = [
     title: "FACE A-J 2020 S/S Collection | Rakuten Fashion Week TOKYO 2020 S/S",
     link: "https://www.tokyoweekender.com/2020/06/awatori-cultural-bridge-african-japanese-fashion/",
     thumbnail: "/press/faceajss2020/FACE-A-J-2020-SS-Collection-Rakuten-Fashion-Week-TOKYO-2020-SS-768x432.jpg"
+  },
+  {
+    title: "FACE A-J 2020 S/S Collection | Rakuten Fashion Week TOKYO 2020 S/S",
+    link: "public/faceajss2022/DSC06543.jpg",
+    thumbnail: "FACE A-J 2022年春夏コレクション"
   },
 ];

@@ -17,5 +17,11 @@ export const works: Work[] = [
     image: "/popeyeMagazine/popeye02_072-073.png",
     alt: "POPEYE Magazine page",
     href: "/works/popeye-magazine"
+  },
+  {
+    name: "Waseda University",
+    image: "/wasedaUniversity/DSCF0510.JPG",
+    alt: "waseda university",
+    href: "/works/waseda-university"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "Home": {
     "about-title": "About Us",
-    "about-description": "Awa'Tori meaning “Our Story” in Pidgin English (widely spoken language across anglophone African countries), and in Japanese, loosely translated as Awa – 合わせ meaning bringing several cultures together and Tori – 通り as in bridging the African and Japanese creative markets. \n\n Founded in 2019 by Bukky Adejobi and Seiko Mbako, Awa'Tori is a platform that is passionate about the African and Japanese creative industry. We believe the creatives in the African and Asian markets have stories worth telling that are expressed in the form of fashion, arts, music, or film. Cut off from certain parts of the world, we believe it is our responsibility to help them tell their stories beyond their respective borders. \n\n With the overarching mission to contribute socioeconomic development in Africa and Japan, Bukky and Seiko, both of African descent, believe in the power of such a synergy. Through partnerships with stakeholders from the supply chain and collaborations with third part organizations, Awa’Tori aims to develop and facilitate projects that foster sustainable partnerships that bridges the gap between the Creative Industries of Africa and Japan.",
+    "about-description": "Founded in 2019 by Bukky Adejobi and Seiko Mbako, Awa'Tori is a Tokyo-based creative agency dedicated to bridging the vibrant creative industries of Africa and Japan. At Awa'Tori, we are redefining the concept of \"Made in Africa\" by creating unique connections between African creatives and the Japanese market, extending from Japan to the world.\n\nThe name \"Awa'Tori\" translates to \"Our Story\" in Pidgin English, a widely spoken language across anglophone African countries. In Japanese, \"Awa\" (合わせ) signifies the blending of cultures, and \"Tori\" (通り) represents the bridging of the African and Japanese creative markets.\n\nOur passion lies in merging these worlds through fashion, art, music, film, and cuisine. Bukky and Seiko, both of African descent, believe in the transformative power of this cultural synergy. Our overarching mission is to contribute to the socioeconomic development of both Africa and Japan.\n\nThrough creative partnerships and collaborations, Awa'Tori strives to develop and facilitate projects that foster sustainable connections between Africa and Japan, aiming to create lasting impacts and opportunities for growth in both regions.",
     "team": "Our Team"
   },
   "Team": {
@@ -19,14 +19,15 @@
     "shop": "Shop",
     "whats-new": "What's New",
     "company-overview": "Company Overview",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "waseda": "Waseda University"
   },
   "FaceAJ": {
     "title": "Fashion & Cultural Exchange Africa-Japan (FACE A-J)",
-    "description": "\"Fashion is Change. Fashion can Change\" \n\n FACE.A-J is a collective that showcases the culture and creativity from Africa and Japan, including an interactive fashion presentation, and panel discussions with the top names in the fashion and creative world. Fashion, Art, and Culture transcend politics and social conflicts, and inequalities. Through Fashion, Art, and Culture, FACE.A-J aims to create a platform that shows the true face of Africa and Japan, to bridge the gap between both creative markets, change misconceptions, and foster economic and cultural development.",
+    "description": "FACE.A-J is a project collective that showcases the culture and creativity from Africa and Japan, including an interactive on-schedule fashion presentation during Rakuten Fashion Week Tokyo, panel discussions, and pop-ups. Fashion, Art, and Culture transcend politics and social conflicts, and inequalities. Through Fashion, Art, and Culture, FACE.A-J aims to create a platform that shows the true face of Africa and Japan, to bridge the gap between both creative markets, change misconceptions, and foster economic and cultural development.",
     "production": "FACE A-J Production Team",
     "founder": "Founder: ",
-    "awatori-founders": "AWA'TORI Bukky Adejobi (Co-Founder) / Seiko Mbako (Co-Founder)",
+    "awatori-founders": "Awa'Tori",
     "project-director": "Project Director: ",
     "Hirofumi Kurino": "Hirofumi Kurino",
     "show-director": "Show Director: ",
@@ -37,5 +38,49 @@
     "Keitaro Nagasaka": "Keitaro Nagasaka (Sakas PR)",
     "advisors": "Advisors: ",
     "faceaj-advisors": "Akiko Shinoda (ITOCHU Corporation), Kaoru Imajo (Japan Fashion Week Organization)"
+  },
+  "FACEAJSS2020": {
+    "description": "A collection of 6 designers, 3 from Africa, 2 of which were nominated for the 2019 LVMH Prize, along with 3 designers from Japan to showcase during Tokyo Fashion Week and Lagos Fashion Week. ",
+    "Tokyo": "Tokyo",
+    "Lagos": "Lagos"
+  },
+  "FACEAJSS2021": {
+    "description": "Bringing together a Nigerian streetwear skateboard brand, Wafflesncream Family, with a Japanese designer COGNOMEN, to create a Japan-Nigeria fusion capsule collection. \nInspired by key aspects of both cultures, and manufactured in Japan, the project showcased an installation, skateboarding, a party at Pizza Slice 2, and pop-up at United Arrows H Beauty & Youth."
+  },
+  "FACEAJAW2021": {
+    "description": "In the 3rd iteration of the FACE A-J project series, Awa’Tori facilitated sourcing and collaboration in partnership with the Japanese brand, Children of The Discordance and a Burkina Faso textile manufacturer, CABES."
+  },
+  "FACEAJSS2022": {
+    "description": "Awa’Tori managed the collaboration between African luxury knitwear brand, MAXHOSA Africa, and a collective of Japanese knit fashion manufacturers, Tokyo Knit. The collaboration involved creation of a collection showcased at Shibuya Parco, followed by a week-long pop-up.  "
+  },
+  "Popeye": {
+    "description": "Awa’Tori consulted for POPEYE magazine to identify the right brand for their Traditional Crafts edition. Based on their needs, we managed the negotiation & communication with the brand from start to the completion of the project."
+  },
+  "Waseda": {
+    "title": "Waseda Univeristy",
+    "description": "Awa’Tori’s mission & passion being education and redefining the concept of \"Made in Africa\", we curated an interactive presentation & exhibition event in partnership with the Intercultural Communication Centre."
+  },
+  "Creatives": {
+    "title": "The Creatives",
+    "our-creatives": "Our Creatives",
+    "kadara-description": "A 24 year old fine art photographer from Lagos, Nigeria, Enyeasi’s work is influenced by an understanding of form, space and perspective, mostly due to his training as an architect. His early influences stretch from the high concept layered order of the ‘five points’ postulated by Le Corbusier, to the classic avant-garde portraitures of early West African photographers. Driven by a narrative, his eye, through the camera always sees something that wills the audience in; the images seeming to riff with the shadows of a serene everyday sexual provocation. His work moving forward will focus strongly on gender and sexual rights vis-a-vis institutions and these institutions’ culpability in promulgating specific rights-exclusive agendas.",
+    "sulvam-description": "A former pattern maker for Yohji Yamamoto. multiple award winner, and shortlisted for the 2017 LVMH Prize, Teppei Fujita launched Sulvam in 2014. At the same time, he won the Tokyo Fashion Awards, and the “Who is on Next? Dubai” contest in 2015. Experimenting with patterns, prints, textures, and colors, Fujita’s work challenges conventional fashion and the concept of genderfluidity, which is prominent in his collections. His unconventional way of developing his collection, allows him the freedom to exceptional pieces that are avant-garde, but wearable.",
+    "wataru-description": "From Kumamoto, Wataru Tominaga is graduate of Central Saint Martins College of Art & Design and the winner of The Grand Jury Prize Premier Vision Grand Prix at the 31st edition of the Hyeres International Festival Fashion and Photography. His bold and sometimes chaotic prints and designs are reminiscent of the 60s and 70s, the main inspiration behind his collections. Tominaga also explores the deconstruction of stereotypes in fashion and textile, and constantly seeks to create clothes which put together go against traditional representations and rules on gender, race, and age.",
+    "coyote-description": "COYOTE is a group of designers from the Coconogacco, an independent fashion school in Tokyo. Founded in 2007 by the winner of the Tokyo Fashion Award, Yamagata, the designer behind Writtenafterwards – a brand that has successfully held two exhibitions in Paris as well as being nominated for the LVMH Prize in 2015. Through Coconogacco, Yamagata aims to educate and develop the next generation of Japanese designers, providing them with the tools to succeed in the global luxury market. COYOTE, a group of young designers, will debut a collection to showcase at FACE.A-J.",
+    "anyango-description": "Born in Kenya, coming from a communications background, and no official fashion education, Mpinga followed her passion and launched her brand in 2015. She has since showcased her works in Kenya, Ethiopia, Nigeria, Mozambique and France; she has also been twice nominated for the Kenya Designer of the year and received the International Design Award by She Trades Collective. Her collections are inspired by culture, a passion for art, and narratives that touch on social issues in Africa. Her pieces are currently only sold online.",
+    "kenneth-description": "One of the two African designers to be nominated for the 2019 LVMH PRIZE, born in Nigeria, Ize graduated from the University of Applied Arts in Vienna and launched his brand in 2013. Working with local artisans and textile manufacturers combining traditional craftsmanship with contemporary concepts, he is known as one of the trailblazers of the African fashion luxury market. Ize has stockists in Austria and Nigeria.",
+    "thebe-description": "The winner of the 2019 LVMH PRIZE and the first African designer to win the prestigious title, Magugu was born in South Africa, studying at Johannesburg Fashion Design School & Retail Education Institute before launching his first collection in 2015. Since, he has collaborated with renowned designers such as Richi Mnisi, showcased in London and Paris where he was nominated for the LVMH PRIZE. His work is inspired by culture, tradition, contemporary art and experience, giving another view on how the aesthetics of the African apparel industry is perceived. He currently has stockists in South Africa and France.",
+    "waffles-description": "The Nigerian brand WAFFLESNCREAM, founded by Jomi Bello, is the first and only skate shop in the region aims to support skateboarding regeneration projects by building skate parks in and around Africa by collaborating with local skaters and artists. WAFFLESNCREAM is a community of like minded skateboarders, bmx riders, graffiti artists, photographers, musicians, graphic designers and video directors that are keen to celebrate subcultures. With an original approach to design, they aim to focus on quality goods.",
+    "children-description": "Created by designer Hideaki Shikama, the brand started to develop in the form of exhibitions from spring / summer 2012. The brand offers a handmade line produced in the atelier of longtime friend and artist Naoto Yoshida, which proposes a new interpretation of vintage wear. The products are highly rare. The brand also focuses on developing fair trade items with the Zapatistas of Mexico, the Maasai tribe of Africa, and the Hirbawi Textile Factory; the last textile factory in Palestine. \"Discordance\" means incongruity. The brand name reflects our desire to preserve our own unique style that is not in harmony with trends, society, or the times, which we have held since our teenage years when we first encountered fashion and music.",
+    "maxhosa-description": "Founded in 2012 by Laduma Ngxokolo, Laduma is a South African knitwear brand whose initial vision was to create a modern knitwear collection inspired by his South African Kosa roots, As someone who has gone through the rite of passage himself, Laduma knew he had to develop premium knitwear that celebrated the traditional Kosa aesthetic. Laduma, having experienced the rite of passage himself, felt compelled to develop premium knitwear that celebrates the traditional Cosa aesthetic. In exploring the patterns, symbols, and colors of traditional Cosa beadwork, he found them to be a source of inspiration for his knitwear, giving it a new interpretation as modern knitwear. MAXHOSA AFRICA's designs express the beauty, culture, language, and hope of the Cosa people. These 'traditions' have been evolved in a modern way and incorporated into designs that fit the times. MAXHOSA AFRICA aims to be a leading brand in the African luxury fashion and lifestyle market.",
+    "Nigeria": "Nigeria",
+    "Japan": "Japan",
+    "Kenya": "Kenya",
+    "South Africa": "South Africa"
+  },
+  "Works": {
+    "FACE A-J": "FACE A-J",
+    "POPEYE Magazine": "POPEYE Magazine",
+    "Waseda University": "Waseda University"
   }
 }
