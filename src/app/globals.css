@@ -17,6 +17,17 @@ b, strong {
   font-weight: 800;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  h1 {
+    font-size: 1.3em;
+  }
+
+  h2 {
+    font-family: var(--font-arsenal);
+    font-size: 1.1em;
+  }
+}
+
 /* hr {
   width: 100%;
   border: 1px solid gray;

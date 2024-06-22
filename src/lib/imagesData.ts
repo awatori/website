@@ -59,3 +59,13 @@ export const faceAJSS2022: Image[] = [
   { url: "/faceajss2022/L1010543.jpg", alt: "Model in MAXHOSA design" },
   { url: "/faceajss2022/L1010681.jpg", alt: "Models in MAXHOSA design" },
 ];
+
+export const wasedaUniversity: Image[] = [
+  { url: "/wasedaUniversity/DSCF0542.JPG", alt: "Waseda University ICC students" },
+  { url: "/wasedaUniversity/DSCF0548.JPG", alt: "Waseda students and Awa'Tori co-founders" },
+  { url: "/wasedaUniversity/DSCF0372.JPG", alt: "Waseda students laughing" },
+  { url: "/wasedaUniversity/DSCF0460.JPG", alt: "Waseda students smiling" },
+  { url: "/wasedaUniversity/DSCF0496.JPG", alt: "Awa'Tori co-founders laughing" },
+  { url: "/wasedaUniversity/DSCF0510.JPG", alt: "Awa'Tori co-founders talking" },
+  { url: "/wasedaUniversity/DSCF0528.JPG", alt: "Waseda student inspecting cloth" },
+]
