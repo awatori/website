@@ -1,8 +1,9 @@
 import { creativesWithPages } from "@/lib/creativesData"
 import { getCreativeByPath } from "@/lib/creativesData"
-import { ImageSlider } from "@/components/imageSlider"
+import { ImageSliderFull } from "@/components/imageSliderFull"
 import Image from "next/image"
 import Link from "next/link"
+import { useTranslations } from "next-intl"
 
 export const runtime = 'edge';
 
@@ -19,6 +20,7 @@ export default function Creative({ params }: {
 }) {
 
   const thisProfile = getCreativeByPath(params.path);
+  const t = useTranslations("Creatives");
 
   return (
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16 min-h-lvh">
@@ -30,14 +32,14 @@ export default function Creative({ params }: {
         }
         <div className="flex flex-col flex-1 mt-4 md:mt-0 md:ml-6">
           <h1 className="text-center md:text-left">{thisProfile!.name}</h1>
-          <p className="mt-4 mb-6">{thisProfile!.description}</p>
+          <p className="mt-4 mb-6">{t(thisProfile!.description)}</p>
           <div className="flex justify-center md:justify-start mt-auto gap-2">
             {(thisProfile!.instagram) ? <Link href={thisProfile!.instagram}><Image src="/icons/instagram_icon_black.png" alt="Instagram icon" width={40} height={40} /></Link> : null}
             {(thisProfile!.website) ? <Link href={thisProfile!.website}><Image src="/icons/website_icon.png" alt="Website icon" width={40} height={40} /></Link> : null}
           </div>
         </div>
       </section>
-      <ImageSlider images={thisProfile!.images} />
+      <ImageSliderFull images={thisProfile!.images} />
     </main>
   )
 }

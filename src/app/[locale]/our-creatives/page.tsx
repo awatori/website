@@ -2,11 +2,14 @@ export const runtime = 'edge';
 
 import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2020Creatives, faceAJSS2021Creatives, faceAJAW2021Creatives, faceAJSS2022Creatives } from "@/lib/creativesData"
+import { useTranslations } from "next-intl";
 
 export default function Projects() {
+  const t = useTranslations("Creatives");
+
   return (
     <main className="mx-14 md:mx-20 lg:mx-36 mt-28 mb-16 min-h-lvh">
-      <h1>Our Creatives</h1>
+      <h1>{t("our-creatives")}</h1>
       <section className="mt-6">
         <h2>FACE A-J SS 2020</h2>
         <hr />

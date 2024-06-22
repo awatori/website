@@ -24,7 +24,7 @@ export function ImageSlider({ images }: Props) {
   }
 
   return (
-    <section className="w-full relative text-white aspect-video mt-6">
+    <section className="md:w-[80%] relative text-white aspect-video mt-6">
       <div className="w-full h-full overflow-hidden flex">
         {images.map((image) => (
           <img src={image.url} key={image.url} className="block min-w-full h-full object-cover transition-all ease-in-out duration-300" style={{ translate: `${-100 * imgIndex}%` }} alt={image.alt} />
