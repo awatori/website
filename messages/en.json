@@ -2,7 +2,25 @@
   "Home": {
     "about-title": "About Us",
     "about-description": "Founded in 2019 by Bukky Adejobi and Seiko Mbako, Awa'Tori is a Tokyo-based creative agency dedicated to bridging the vibrant creative industries of Africa and Japan. At Awa'Tori, we are redefining the concept of \"Made in Africa\" by creating unique connections between African creatives and the Japanese market, extending from Japan to the world.\n\nThe name \"Awa'Tori\" translates to \"Our Story\" in Pidgin English, a widely spoken language across anglophone African countries. In Japanese, \"Awa\" (合わせ) signifies the blending of cultures, and \"Tori\" (通り) represents the bridging of the African and Japanese creative markets.\n\nOur passion lies in merging these worlds through fashion, art, music, film, and cuisine. Bukky and Seiko, both of African descent, believe in the transformative power of this cultural synergy. Our overarching mission is to contribute to the socioeconomic development of both Africa and Japan.\n\nThrough creative partnerships and collaborations, Awa'Tori strives to develop and facilitate projects that foster sustainable connections between Africa and Japan, aiming to create lasting impacts and opportunities for growth in both regions.",
-    "team": "Our Team"
+    "team": "Our Team",
+    "expertise-title": "Our Expertise",
+    "market": "Market Entry",
+    "brand-dev": "Brand Development & Promotion",
+    "market-consul": "Market Consultation",
+    "e-commerce": "E-Commerce",
+    "wholesale": "Wholesale",
+    "events": "Events",
+    "event-planning": "Event Planning & Management",
+    "vendor-source": "Vendor Sourcing & Management",
+    "concept-creation": "Concept Creation & Consultation",
+    "community-engage": "Community Engagement",
+    "exhibition": "Exhibition, Pop-up, Shows",
+    "creator": "Creator Sourcing",
+    "collab-manage": "Collaboration Management",
+    "artist-manage": "Artists & Brand Management",
+    "artists-intro": "Artists & Brand Introduction",
+    "sourcing-consul": "Sourcing Consultation",
+    "creative-sourcing": "Creative Sourcing"
   },
   "Team": {
     "Bukky Adejobi": "Bukky Adejobi",
@@ -25,6 +43,7 @@
   "FaceAJ": {
     "title": "Fashion & Cultural Exchange Africa-Japan (FACE A-J)",
     "description": "FACE.A-J is a project collective that showcases the culture and creativity from Africa and Japan, including an interactive on-schedule fashion presentation during Rakuten Fashion Week Tokyo, panel discussions, and pop-ups. Fashion, Art, and Culture transcend politics and social conflicts, and inequalities. Through Fashion, Art, and Culture, FACE.A-J aims to create a platform that shows the true face of Africa and Japan, to bridge the gap between both creative markets, change misconceptions, and foster economic and cultural development.",
+    "partners-sponsors": "Partners & Sponsors",
     "production": "FACE A-J Production Team",
     "founder": "Founder: ",
     "awatori-founders": "Awa'Tori",
@@ -82,5 +101,27 @@
     "FACE A-J": "FACE A-J",
     "POPEYE Magazine": "POPEYE Magazine",
     "Waseda University": "Waseda University"
+  },
+  "Company": {
+    "title": "Company Overview",
+    "name": "Company Name",
+    "representative": "Representative",
+    "bukky-seiko": "Oluwabukola Adebimpe Adejobi (Bukky)\nSeiko Mbako",
+    "address": "Address",
+    "udagawa": "WORLD UDAGAWA BUILDING 6F 36-6 Udagawacho, Shibuya City,\n150-0042 Tokyo",
+    "established": "Established",
+    "capital": "Capital"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "For collaborations and or sponsorship, please contact us via the information provided below. We would love to hear from you.",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "office": "The Office",
+    "address": "WORLD UDAGAWA BUILDING 6F 36-6 Udagawacho, Shibuya City\n150-0042 Tokyo",
+    "social": "Social Media"
   }
 }

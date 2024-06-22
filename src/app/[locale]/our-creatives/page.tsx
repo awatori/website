@@ -1,6 +1,6 @@
 export const runtime = 'edge';
 
-import { CreativesTextOnlyContainer } from "@/components/creativesTextOnlyContainer"
+import { CreativesContainer } from "@/components/creativesContainer"
 import { faceAJSS2020Creatives, faceAJSS2021Creatives, faceAJAW2021Creatives, faceAJSS2022Creatives } from "@/lib/creativesData"
 import { useTranslations } from "next-intl";
 
@@ -13,22 +13,22 @@ export default function Projects() {
       <section className="mt-6">
         <h2>FACE A-J SS 2020</h2>
         <hr />
-        <CreativesTextOnlyContainer creatives={faceAJSS2020Creatives} />
+        <CreativesContainer creatives={faceAJSS2020Creatives} />
       </section>
       <section className="mt-20">
         <h2>FACE A-J SS 2021</h2>
         <hr />
-        <CreativesTextOnlyContainer creatives={faceAJSS2021Creatives} />
+        <CreativesContainer creatives={faceAJSS2021Creatives} />
       </section>
       <section className="mt-20">
         <h2>FACE A-J AW 2021</h2>
         <hr />
-        <CreativesTextOnlyContainer creatives={faceAJAW2021Creatives} />
+        <CreativesContainer creatives={faceAJAW2021Creatives} />
       </section>
       <section className="mt-20">
         <h2>FACE A-J SS 2022</h2>
         <hr />
-        <CreativesTextOnlyContainer creatives={faceAJSS2022Creatives} />
+        <CreativesContainer creatives={faceAJSS2022Creatives} />
       </section>
     </main>
   )

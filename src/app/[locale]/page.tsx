@@ -6,8 +6,9 @@ import { useEffect } from "react";
 import styles from "/src/styles/home.module.css";
 import { profiles } from "@/lib/teamData";
 import { ProfileCard } from "@/components/profileCard";
-import Image from "next/image";
 import { useTranslations } from 'next-intl';
+import { CircleListContainer } from "@/components/circleListContainer";
+import { ourExpertise } from "@/lib/expertiseData";
 
 export default function Home() {
   const t = useTranslations("Home");
@@ -43,7 +44,7 @@ export default function Home() {
     } else {
       header!.classList.remove("bg-black");
       header!.classList.add("bg-transparent");
-      logo!.classList.remove(styles["hero-to-header"]);
+      logo?.classList.remove(styles["hero-to-header"]);
       logo!.offsetHeight; // trigger reflow to reset animation
       logo!.classList.add(styles["header-to-hero"]);
     }
@@ -58,14 +59,24 @@ export default function Home() {
         <img src="/placeholder_hero.png" alt="two models on a runway" className="h-full w-full object-cover" />
       </section>
       <section className="mx-14 md:mx-20 lg:mx-36 my-12">
-        <h1 className="text-center md:text-left">{t("about-title")}</h1>
-        <p className="mt-4 whitespace-pre-line">{t("about-description")} <br /><br />
-        </p>
-        <h1 className="mt-12 text-center md:text-left">{t("team")}</h1>
-        <div className="flex flex-col mt-8 gap-6 mb-24">
-          {profiles.map((profile) => (
-            <ProfileCard key={profile.name} profile={profile} />
-          ))}
+        <div>
+          <h1 className="text-center md:text-left">{t("about-title")}</h1>
+          <hr />
+          <p className="mt-4 whitespace-pre-line">{t("about-description")}</p>
+        </div>
+        <div>
+          <h1 className="mt-16 text-center md:text-left">{t("expertise-title")}</h1>
+          <hr />
+          <CircleListContainer lists={ourExpertise} translation="Home" />
+        </div>
+        <div>
+          <h1 className="mt-16 text-center md:text-left">{t("team")}</h1>
+          <hr />
+          <div className="flex flex-col mt-8 gap-6 mb-24">
+            {profiles.map((profile) => (
+              <ProfileCard key={profile.name} profile={profile} />
+            ))}
+          </div>
         </div>
       </section>
     </main>
