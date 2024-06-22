@@ -20,7 +20,7 @@ export default function FaceAJ() {
         <section className="flex flex-wrap justify-around mt-24 gap-y-6">
           {
             FaceAJData.map(show => (
-              <div className="flex w-[45%]  md:w-[20%] lg:w-[15%] aspect-square bg-black rounded-full justify-center items-center text-white">
+              <div className="flex w-[45%]  md:w-[20%] lg:w-[15%] aspect-square bg-black rounded-full justify-center items-center text-white" key={show.title}>
                 <Link href={`/${locale}${show.href}`}>
                   <h2 className="mt-2 hover:underline mb-4 text-xl lg:text-2xl">{show.title} →</h2>
                 </Link>

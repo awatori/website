@@ -17,7 +17,7 @@ export function CircleListContainer({ lists, translation }: Props) {
             <h2 className="text-center w-5/6 md:w-3/4 lg:w-[70%] whitespace-pre-line"><strong>{t(list.title)}</strong></h2>
           </div>
           {list.list.map(item => (
-            <p className="text-[8px] md:text-[12px] lg:text-lg text-center mt-6 w-5/6 md:w-3/4 lg:w-[80%]">{t(item)}</p>
+            <p className="text-[8px] md:text-[12px] lg:text-lg text-center mt-6 w-5/6 md:w-3/4 lg:w-[80%]" key={item}>{t(item)}</p>
           ))}
         </div>
       ))}
