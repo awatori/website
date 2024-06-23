@@ -41,7 +41,7 @@ export default function ContactUs() {
               <h2>{t("office")}</h2>
               <div className="flex w-full gap-4 mt-4">
                 <Image src="/icons/gps.png" alt="Location icon" width={30} height={30} className="object-contain" />
-                <p className="whitespace-pre">{t("address")}</p>
+                <p className="whitespace-pre-wrap">{t("address")}</p>
               </div>
               <div className="flex w-full gap-4 mt-4">
                 <Image src="/icons/email.png" alt="Email icon" width={30} height={30} className="object-contain" />
