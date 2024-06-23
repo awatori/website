@@ -4,9 +4,6 @@ import { ImageSliderFull } from "@/components/imageSliderFull"
 import { CreativesTextOnlyContainer } from "@/components/creativesTextOnlyContainer"
 import { faceAJSS2020Creatives } from "@/lib/creativesData"
 import { faceAJSS2020Tokyo, faceAJSS2020Lagos } from "@/lib/imagesData"
-// import { LogosContainer } from "@/components/logosContainer"
-// import { faceajss2020sponsors } from "@/lib/sponsorsData"
-// import { faceajss2020media } from "@/lib/mediaEngagementData"
 import { useTranslations } from "next-intl";
 
 export default function SS2020() {
@@ -33,23 +30,10 @@ export default function SS2020() {
           <ImageSliderFull images={faceAJSS2020Lagos} />
         </div>
       </section>
-      {/* <section className="mt-8">
-        <h2 className="text-center md:text-left">Lagos</h2>
-        <hr />
-        <ImageSlider images={faceAJSS2020Lagos} />
-      </section> */}
       <section className="mt-12 mb-24">
         <h1 className="text-center md:text-left">{t2("title")}</h1>
         <CreativesTextOnlyContainer creatives={faceAJSS2020Creatives} />
       </section>
-      {/* <section className="mt-12">
-        <h1 className="text-center md:text-left">Sponsors</h1>
-        <LogosContainer logos={faceajss2020sponsors} />
-      </section>
-      <section className="mt-12">
-        <h1 className="text-center md:text-left">Media Engagement</h1>
-        <LogosContainer logos={faceajss2020media} />
-      </section> */}
     </main>
   )
 }

@@ -32,11 +32,6 @@ export default async function LocaleLayout({
             <Footer />
           </Providers>
         </NextIntlClientProvider>
-        {/* <Providers>
-          {children}
-          <Header />
-          <Footer />
-        </Providers> */}
       </body>
     </html>
   );

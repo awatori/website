@@ -9,7 +9,6 @@ export const faceAJSS2020Tokyo: Image[] = [
   { url: "/faceajss2020/tokyo/_DSC7443.jpg", alt: "Runway model on stage" },
   { url: "/faceajss2020/tokyo/_DSC7579.jpg", alt: "Crowd dancing with a band in the background" },
   { url: "/faceajss2020/tokyo/anyangoMpinga/_DSC6905.jpg", alt: "Back and profile of woman dancing" },
-  { url: "/faceajss2020/tokyo/coyote/_DSC7199.jpg", alt: "Feet of models lined up on stage" },
   { url: "/faceajss2020/tokyo/kadaraEnyeasi/_DSC6824.jpg", alt: "Kadara Enyeasi posters" },
   { url: "/faceajss2020/tokyo/kenneth/_DSC7224.jpg", alt: "Models in clothing" },
   { url: "/faceajss2020/tokyo/_DSC7128.jpg", alt: "Runway model with band in background" },
