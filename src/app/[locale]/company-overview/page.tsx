@@ -17,9 +17,9 @@ export default function CompanyOverview() {
           <p className="font-bold w-1/3 md:w-1/4 shrink-0">{t("representative")}</p>
           <p className="whitespace-pre text-wrap">{t("bukky-seiko")}</p>
         </div>
-        <div className="flex gap-10 mt-8">
+        <div className="flex gap-10 mt-8 text-wrap">
           <p className="font-bold w-1/3 md:w-1/4 shrink-0">{t("address")}</p>
-          <p className="whitespace-pre">{t("udagawa")}</p>
+          <p className="whitespace-pre-wrap">{t("udagawa")}</p>
         </div>
         <div className="flex gap-10 mt-8">
           <p className="font-bold w-1/3 md:w-1/4">{t("established")}</p>
