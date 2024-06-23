@@ -19,7 +19,6 @@ export default function WhatsNew() {
           </div>
         </Link>
       </section>
-      {/* <iframe className="mt-6 aspect-video w-full" src="https://www.youtube.com/embed/XdpnX41PNZk?si=aQuB25GH0h-U3Ugk" title="YouTube video player" allowFullScreen></iframe> */}
       <section className="mt-8">
         <hr />
         <PressContainer pressArr={media} />

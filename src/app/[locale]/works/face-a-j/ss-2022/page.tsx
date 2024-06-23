@@ -25,17 +25,9 @@ export default function SS2022() {
         <ImageSlider images={faceAJSS2022} />
       </section>
       <section className="mt-12">
-        <h1 className="text-center md:text-left">{t2("title")}</h1>
+        <h1 className="text-center md:text-left">{t2("title-single")}</h1>
         <CreativesTextOnlyContainer creatives={faceAJSS2022Creatives} />
       </section>
-      {/* <section className="mt-12">
-        <h1 className="text-center md:text-left">Sponsors</h1>
-        <LogosContainer logos={faceajss2022sponsors} />
-      </section>
-      <section className="mt-12">
-        <h1 className="text-center md:text-left">Media Engagement</h1>
-        <LogosContainer logos={faceajss2022media} />
-      </section> */}
     </main>
   )
 }

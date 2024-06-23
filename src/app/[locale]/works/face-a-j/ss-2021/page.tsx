@@ -4,9 +4,6 @@ import { ImageSlider } from "@/components/imageSlider"
 import { CreativesTextOnlyContainer } from "@/components/creativesTextOnlyContainer"
 import { faceAJSS2021Creatives } from "@/lib/creativesData"
 import { faceAJSS2021 } from "@/lib/imagesData"
-import { LogosContainer } from "@/components/logosContainer"
-import { faceajss2021sponsors } from "@/lib/sponsorsData"
-import { faceajss2021media } from "@/lib/mediaEngagementData"
 import { useTranslations } from "next-intl";
 
 export default function SS2021() {
@@ -28,14 +25,6 @@ export default function SS2021() {
         <h1 className="text-center md:text-left">{t2("title")}</h1>
         <CreativesTextOnlyContainer creatives={faceAJSS2021Creatives} />
       </section>
-      {/* <section className="mt-12">
-        <h1 className="text-center md:text-left">Sponsors</h1>
-        <LogosContainer logos={faceajss2021sponsors} />
-      </section>
-      <section className="mt-12">
-        <h1 className="text-center md:text-left">Media Engagement</h1>
-        <LogosContainer logos={faceajss2021media} />
-      </section> */}
     </main>
   )
 }
