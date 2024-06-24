@@ -14,7 +14,6 @@ export function Footer() {
         <nav className="flex flex-col text-center md:flex-row md:text-left justify-between gap-x-6 text-sm">
           <Link href="/" className="hover:underline mt-2 md:mt-0">{t("home")}</Link>
           <Link href={`/${locale}/works`} className="hover:underline mt-2 md:mt-0">{t("works")}</Link>
-          <Link href={`/${locale}/our-creatives`} className="hover:underline mt-2 md:mt-0">{t("creatives")}</Link>
           <Link href={`/${locale}/contact-us`} className="hover:underline mt-2 md:mt-0">{t("contact")}</Link>
         </nav>
         <nav className="flex gap-3 mt-4 md:mt-0">

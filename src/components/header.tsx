@@ -25,7 +25,7 @@ export function Header() {
     <>
       <header className="fixed top-0 flex justify-between items-center px-8 py-2 text-white w-full bg-black"
         id="header">
-        <button className="w-1/4 text-left hover:underline" onClick={onClick}>{locale === "en" ? "🇯🇵 日本語" : "🇬🇧 English"}</button>
+        <button className="w-1/4 text-left hover:underline" onClick={onClick}>{locale === "en" ? "日本語" : "English"}</button>
         <div className="w-1/4 flex justify-center">
           <Link href="/"><img src="/logos/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-16 my-1" id="header-logo" /></Link>
         </div>
@@ -68,7 +68,7 @@ export function Header() {
                   <Link href={`/${locale}/works/waseda-university`} className="hover:underline ml-4 mt-2 block" onClick={onClose}>{t("waseda")}</Link>
                 </AccordionPanel>
               </AccordionItem>
-              <AccordionItem>
+              {/* <AccordionItem>
                 <h2>
                   <Link href={`/${locale}/our-creatives`} onClick={onClose}>
                     <AccordionButton className="flex justify-between w-100">
@@ -76,7 +76,7 @@ export function Header() {
                     </AccordionButton>
                   </Link>
                 </h2>
-              </AccordionItem>
+              </AccordionItem> */}
               <AccordionItem>
                 <h2>
                   <Link href="https://awatori-shop.com/" target="_blank" onClick={onClose}>

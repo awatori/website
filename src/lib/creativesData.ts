@@ -13,49 +13,49 @@ export const faceAJSS2020Creatives: Creative[] = [
     country: "Nigeria",
     image: "/creatives/Kadara_Enyeasi.jpg",
     alt: "Kadara Enyeasi profile picture",
-    url: "/our-creatives/kadara-enyeasi",
+    url: "/creatives/kadara-enyeasi",
   },
   {
     name: "Sulvam",
     country: "Japan",
     image: "/creatives/Sulvam.jpg",
     alt: "Sulvam profile picture",
-    url: "/our-creatives/sulvam",
+    url: "/creatives/sulvam",
   },
   {
     name: "Wataru Tominaga",
     country: "Japan",
     image: "/creatives/Wataru_Tominaga.jpg",
     alt: "Wataru Tominaga profile picture",
-    url: "/our-creatives/wataru-tominaga",
+    url: "/creatives/wataru-tominaga",
   },
   {
     name: "COYOTE/Coconogacco",
     country: "Japan",
     image: "/creatives/Coyote.jpg",
     alt: "Coyote profile picture",
-    url: "/our-creatives/coyote",
+    url: "/creatives/coyote",
   },
   {
     name: "Anyango Mpinga",
     country: "Kenya",
     image: "/creatives/Anyango_Mpinga.jpg",
     alt: "Anyango Maphinga profile picture",
-    url: "/our-creatives/anyango-mpinga",
+    url: "/creatives/anyango-mpinga",
   },
   {
     name: "Kenneth Ize",
     country: "Nigeria",
     image: "/creatives/Kenneth_Ize.jpg",
     alt: "Kenneth Ize profile picture",
-    url: "/our-creatives/kenneth-ize",
+    url: "/creatives/kenneth-ize",
   },
   {
     name: "Thebe Magugu",
     country: "South Africa",
     image: "/creatives/Thebe_Magugu.jpg",
     alt: "Thebe Magugu profile picture",
-    url: "/our-creatives/thebe-magugu"
+    url: "/creatives/thebe-magugu"
   }
 ]
 
@@ -79,7 +79,7 @@ export const faceAJSS2021Creatives: Creative[] = [
     country: "Nigeria",
     image: "/creatives/Wafflesncream.jpg",
     alt: "WAFFLESNCREAM profile picture",
-    url: "/our-creatives/wafflesncream"
+    url: "/creatives/wafflesncream"
   }
 ]
 
@@ -89,7 +89,7 @@ export const faceAJAW2021Creatives: Creative[] = [
     country: "Japan",
     image: "/creatives/children-of-the-discordance_portrait.jpg",
     alt: "Children of the discordance profile picture",
-    url: "/our-creatives/children-of-the-discordance",
+    url: "/creatives/children-of-the-discordance",
   }
 ];
 
@@ -99,7 +99,7 @@ export const faceAJSS2022Creatives: Creative[] = [
     country: "South Africa",
     image: "/creatives/Maxhosa-Africa.jpg",
     alt: "MAXHOSA AFRICA logo",
-    url: "/our-creatives/maxhosa-africa",
+    url: "/creatives/maxhosa-africa",
   }
 ];
 

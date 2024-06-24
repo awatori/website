@@ -56,7 +56,7 @@ export default function Home() {
         <img src="/logos/awatori_logo_white.png" alt="Awa'Tori logo in white" className="w-80 h-fit" id="hero-logo" />
       </div>
       <section className="h-lvh w-lvh">
-        <img src="/placeholder_hero.png" alt="two models on a runway" className="h-full w-full object-cover" />
+        <img src="/hero.jpg" alt="two models on a runway" className="h-full w-full object-cover object-right" />
       </section>
       <section className="mx-14 md:mx-20 lg:mx-36 my-12">
         <div>
