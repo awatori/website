@@ -7,6 +7,11 @@ export interface Press {
 
 export const media: Press[] = [
   {
+    title: "FACE A-J 2022年春夏コレクション",
+    link: "https://www.fashionsnap.com/collection/face-a-j/2022ss/",
+    thumbnail: "/faceajss2022/DSC06543.jpg"
+  },
+  {
     title: "ファッション業界が注目するアフリカと日本の交流。「FACE. A-Jプロジェクト」とは",
     link: "https://numero.jp/news-20190926-face-a-j/",
     thumbnail: "/press/faceajss2020/FACEAJ_image001.jpg"
