@@ -4,9 +4,6 @@ import { ImageSlider } from "@/components/imageSlider"
 import { CreativesTextOnlyContainer } from "@/components/creativesTextOnlyContainer"
 import { faceAJSS2022Creatives } from "@/lib/creativesData"
 import { faceAJSS2022 } from "@/lib/imagesData"
-import { LogosContainer } from "@/components/logosContainer"
-import { faceajss2022sponsors } from "@/lib/sponsorsData"
-import { faceajss2022media } from "@/lib/mediaEngagementData"
 import { useTranslations } from "next-intl";
 
 export default function SS2022() {
