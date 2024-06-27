@@ -93,7 +93,9 @@ export default function ContactUs() {
               <h2 className="mb-4">{t("social")}</h2>
               <div className="flex gap-4">
                 {socialMedias.map(media => (
-                  <Link href={media.link}><Image src={media.iconBlack} alt={media.alt} width={30} height={30} className="object-contain" /></Link>
+                  <Link href={media.link} key={media.alt}>
+                    <Image src={media.iconBlack} alt={media.alt} width={30} height={30} className="object-contain" />
+                  </Link>
                 ))}
               </div>
             </div>
