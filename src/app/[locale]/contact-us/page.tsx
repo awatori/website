@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useTranslations } from "next-intl";
 import emailjs from "@emailjs/browser";
+import { socialMedias } from "@/lib/socialMediaData";
 
 export default function ContactUs() {
   const t = useTranslations("Contact")
@@ -91,8 +92,11 @@ export default function ContactUs() {
             <div className="mt-6">
               <h2 className="mb-4">{t("social")}</h2>
               <div className="flex gap-4">
-                <Link href="https://www.instagram.com/awatori.ourstory/"><Image src="/icons/instagram_icon_black.png" alt="Instagram icon" width={30} height={30} className="object-contain" /></Link>
-                <Link href="https://www.youtube.com/channel/UCHCt0lehc9PLV7JS3Ytlkag/featured?view_as=subscriber"><Image src="/icons/youtube_icon_black.png" alt="Youtube icon" width={30} height={30} className="object-contain" /></Link>
+                {socialMedias.map(media => (
+                  <Link href={media.link} key={media.alt}>
+                    <Image src={media.iconBlack} alt={media.alt} width={30} height={30} className="object-contain" />
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
