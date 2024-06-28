@@ -85,7 +85,7 @@ export default function ContactUs() {
               </div>
               <div className="flex w-full gap-4 mt-4">
                 <Image src="/icons/email.png" alt="Email icon" width={30} height={30} className="object-contain" />
-                <p>info@awatori.com</p>
+                <a href="mailto:info@awatori.com" className="hover:underline">info@awatori.com</a>
               </div>
             </div>
             <hr className="mt-6" />
